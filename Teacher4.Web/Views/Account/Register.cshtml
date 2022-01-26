@@ -1,0 +1,69 @@
+﻿@model Teacher4.Core.DTOs.RegisterViewModel
+@{
+    Layout ="/Views/Shared/_Account.cshtml";
+    ViewData["Title"] = "عضویت";
+}
+    <section class="section">
+        <div class="container">
+            <div class="columns body  ">
+                <div class="column identity-center is-4 notification is-warning is-light box">
+                    <div class="mb-5 has-text-centered">
+                        <h1 class="title is-5">عضویت در سایت</h1>
+                    </div>
+                    <!---------------------------  Register  ------------------------->
+                    <div class="is-centered mx-3" id="signup">
+                        <form asp-action="Register" method="post">
+
+                            <div class="field">
+                                <div class="control  has-icons-right ">
+                                    <input asp-for="UserName" class="input is-warning is-small has-text-centered" type="text"
+                                           placeholder="نام (فقط به فارسی)">
+                                    <span class="icon is-small is-right">
+                                        <i class="fas fa-user"></i>
+                                    </span>
+                                </div>
+                            </div>
+                            <div class="field">
+                                <div class="control  has-icons-right">
+                                    <input asp-for="Email" class="input is-warning is-small has-text-centered" type="email"
+                                           placeholder="ایمیل">
+                                    <span class="icon is-small is-right">
+                                        <i class="fas fa-check"></i>
+                                    </span>
+                                </div>
+                            </div>
+                            <div class="field">
+                                <div class="control  has-icons-right">
+                                    <input asp-for="Password" class="input is-warning is-small has-text-centered" type="password"
+                                           placeholder="گذر واژه">
+                                    <span class="icon is-small is-right">
+                                        <i class="fas fa-lock"></i>
+                                    </span>
+                                </div>
+                            </div>
+                            <div class="field">
+                                <div class="control  has-icons-right">
+                                    <input asp-for="RePassword" class="input is-warning is-small has-text-centered" type="password"
+                                           placeholder="تکرار گذر واژه ">
+                                    <span class="icon is-small is-right">
+                                        <i class="fas fa-lock"></i>
+                                    </span>
+                                </div>
+                            </div>
+
+                            <div asp-validation-summary="All" class="has-text-danger is-size-7">
+
+                            </div>
+                            <button class="button is-warning is-small is-fullwidth">عضویت در سایت</button>
+                        </form>
+
+                    </div>
+                </div>
+
+            </div>
+        </div>
+    </section>
+    @section Scripts{
+        <script src="/js/jquery.validate.min.js"></script>
+        <script src="/js/jquery.validate.unobtrusive.js"></script>
+    }

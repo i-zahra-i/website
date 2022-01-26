@@ -1,0 +1,99 @@
+﻿@using Teacher4.Core.Convertors
+@model IEnumerable<Teacher4.DataLayer.Entities.Order.Order>
+@{
+    ViewData["Title"] = "Index";
+    Layout = "~/Views/Shared/_Account.cshtml";
+}
+<section>
+    <div class="container">
+        <div class="columns mt-4">
+            <!-------------- Side Right -------------->
+
+            <partial name="_SideBar" />
+
+
+            <!--------------- Side Left -------------->
+            <div class="column" id="Side-left">
+                <div class="columns flex">
+                    <!-- bill -->
+                    <div class="column is-12 ">
+                        <div class="message is-info ">
+                            <div class="message-header">
+                                <span>  فاکتورهای شما </span>
+                            </div>
+                            <div class="message-body px-4 pb-3 side-detail box">
+                                <div class="table-container pl-5">
+                                    <table class="table table  is-bordered is-striped is-narrow is-hoverable is-fullwidth mt-2">
+                                        <thead>
+                                            <tr class="is-size-7-mobile">
+                                                <th class="has-text-success">
+                                                    <abbr title="Position">
+                                                        <span>شماره فاکتور  </span>
+                                                    </abbr>
+                                                </th>
+                                                <th class="has-text-success">
+                                                    <abbr title="Played">
+                                                        <span>تاریخ </span>
+                                                    </abbr>
+                                                </th>
+                                                <th class="has-text-success">
+                                                    <abbr title="Won">
+                                                        <span>جمع</span>
+                                                    </abbr>
+                                                </th>
+                                                <th class="has-text-success">
+                                                    <abbr title="Drawn">
+                                                        <span>پرداخت</span>
+                                                    </abbr>
+                                                </th>
+                                                <th class="has-text-success">
+                                                    <abbr title="Drawn">
+                                                        <span>دستورات</span>
+                                                    </abbr>
+                                                </th>
+                                            </tr>
+                                        </thead>
+                                        <tbody>
+                                            @foreach (var item in Model)
+                                            {
+                                                <tr>
+                                                    <td>
+                                                        @item.OrderId
+                                                    </td>
+                                                    <td>
+                                                        @item.CreateDate.ToShamsi()
+                                                    </td>
+                                                    <td>@item.OrderSum</td>
+                                                    <td>
+                                                        @if (item.IsFinaly)
+                                                        {
+                                                            <p class="has-text-success">
+                                                                پرداخت شده
+                                                            </p>
+                                                        }
+                                                        else
+                                                        {
+                                                            <p class="has-text-danger">
+                                                                پرداخت نشده
+                                                            </p>
+                                                        }
+                                                    </td>
+                                                    <td>
+                                                        <a class="button is-primary " href="/UserPanel/MyOrders/ShowOrder/@item.OrderId">نمایش</a>
+                                                    </td>
+                                                </tr>
+                                            }
+                                        </tbody>
+                                    </table>
+                                </div>
+
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    </div>
+</section>
+

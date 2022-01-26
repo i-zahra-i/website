@@ -1,0 +1,166 @@
+F:\project\Main\MyAcademicNET3\Back\Teacher4Core\Teacher4.Web\bin\Debug\netcoreapp2.1\Properties\launchSettings.json
+F:\project\Main\MyAcademicNET3\Back\Teacher4Core\Teacher4.Web\bin\Debug\netcoreapp2.1\Teacher4.Web.deps.json
+F:\project\Main\MyAcademicNET3\Back\Teacher4Core\Teacher4.Web\bin\Debug\netcoreapp2.1\Teacher4.Web.runtimeconfig.json
+F:\project\Main\MyAcademicNET3\Back\Teacher4Core\Teacher4.Web\bin\Debug\netcoreapp2.1\Teacher4.Web.runtimeconfig.dev.json
+F:\project\Main\MyAcademicNET3\Back\Teacher4Core\Teacher4.Web\bin\Debug\netcoreapp2.1\Teacher4.Web.dll
+F:\project\Main\MyAcademicNET3\Back\Teacher4Core\Teacher4.Web\obj\Debug\netcoreapp2.1\Teacher4.Web.csprojAssemblyReference.cache
+F:\project\Main\MyAcademicNET3\Back\Teacher4Core\Teacher4.Web\obj\Debug\netcoreapp2.1\Teacher4.Web.RazorAssemblyInfo.cache
+F:\project\Main\MyAcademicNET3\Back\Teacher4Core\Teacher4.Web\obj\Debug\netcoreapp2.1\Teacher4.Web.RazorAssemblyInfo.cs
+F:\project\Main\MyAcademicNET3\Back\Teacher4Core\Teacher4.Web\obj\Debug\netcoreapp2.1\Teacher4.Web.AssemblyInfoInputs.cache
+F:\project\Main\MyAcademicNET3\Back\Teacher4Core\Teacher4.Web\obj\Debug\netcoreapp2.1\Teacher4.Web.AssemblyInfo.cs
+F:\project\Main\MyAcademicNET3\Back\Teacher4Core\Teacher4.Web\obj\Debug\netcoreapp2.1\Teacher4.Web.RazorTargetAssemblyInfo.cache
+F:\project\Main\MyAcademicNET3\Back\Teacher4Core\Teacher4.Web\obj\Debug\netcoreapp2.1\Teacher4.Web.genruntimeconfig.cache
+F:\project\Main\MyAcademicNET3\Back\Teacher4Core\Teacher4.Web\obj\Debug\netcoreapp2.1\Teacher4.Web.TagHelpers.input.cache
+F:\project\Main\MyAcademicNET3\Back\Teacher4Core\Teacher4.Web\obj\Debug\netcoreapp2.1\Teacher4.Web.TagHelpers.output.cache
+F:\project\Main\MyAcademicNET3\Back\Teacher4Core\Teacher4.Web\obj\Debug\netcoreapp2.1\Teacher4.Web.RazorCoreGenerate.cache
+F:\project\Main\MyAcademicNET3\Back\Teacher4Core\Teacher4.Web\obj\Debug\netcoreapp2.1\Razor\Views\Account\ActiveAccount.cshtml.g.cs
+F:\project\Main\MyAcademicNET3\Back\Teacher4Core\Teacher4.Web\obj\Debug\netcoreapp2.1\Razor\Views\Account\Login.cshtml.g.cs
+F:\project\Main\MyAcademicNET3\Back\Teacher4Core\Teacher4.Web\obj\Debug\netcoreapp2.1\Razor\Views\Account\Register.cshtml.g.cs
+F:\project\Main\MyAcademicNET3\Back\Teacher4Core\Teacher4.Web\obj\Debug\netcoreapp2.1\Razor\Views\Account\SuccessRegister.cshtml.g.cs
+F:\project\Main\MyAcademicNET3\Back\Teacher4Core\Teacher4.Web\obj\Debug\netcoreapp2.1\Razor\Views\Home\Index.cshtml.g.cs
+F:\project\Main\MyAcademicNET3\Back\Teacher4Core\Teacher4.Web\obj\Debug\netcoreapp2.1\Razor\Views\Shared\_Account.cshtml.g.cs
+F:\project\Main\MyAcademicNET3\Back\Teacher4Core\Teacher4.Web\obj\Debug\netcoreapp2.1\Razor\Views\Shared\_ActiiveEmail.cshtml.g.cs
+F:\project\Main\MyAcademicNET3\Back\Teacher4Core\Teacher4.Web\obj\Debug\netcoreapp2.1\Razor\Views\Shared\_DefaultLayout.cshtml.g.cs
+F:\project\Main\MyAcademicNET3\Back\Teacher4Core\Teacher4.Web\obj\Debug\netcoreapp2.1\Razor\Views\Shared\_Footer.cshtml.g.cs
+F:\project\Main\MyAcademicNET3\Back\Teacher4Core\Teacher4.Web\obj\Debug\netcoreapp2.1\Razor\Views\Shared\_MetaTaks.cshtml.g.cs
+F:\project\Main\MyAcademicNET3\Back\Teacher4Core\Teacher4.Web\obj\Debug\netcoreapp2.1\Razor\Views\Shared\_Styles.cshtml.g.cs
+F:\project\Main\MyAcademicNET3\Back\Teacher4Core\Teacher4.Web\obj\Debug\netcoreapp2.1\Razor\Views\Shared\_TopMenu.cshtml.g.cs
+F:\project\Main\MyAcademicNET3\Back\Teacher4Core\Teacher4.Web\obj\Debug\netcoreapp2.1\Razor\Views\_ViewImports.cshtml.g.cs
+F:\project\Main\MyAcademicNET3\Back\Teacher4Core\Teacher4.Web\obj\Debug\netcoreapp2.1\Razor\Views\_ViewStart.cshtml.g.cs
+F:\project\Main\MyAcademicNET3\Back\Teacher4Core\Teacher4.Web\obj\Debug\netcoreapp2.1\Teacher4.Web.RazorTargetAssemblyInfo.cs
+F:\project\Main\MyAcademicNET3\Back\Teacher4Core\Teacher4.Web\obj\Debug\netcoreapp2.1\Teacher4.Web.dll
+F:\project\Main\MyAcademicNET3\Back\Teacher4Core\Teacher4.Web\obj\Debug\netcoreapp2.1\Teacher4.Web.pdb
+F:\project\Main\MyAcademicNET3\Back\Teacher4Core\Teacher4.Web\bin\Debug\netcoreapp2.1\Teacher4.Web.pdb
+F:\project\Main\MyAcademicNET3\Back\Teacher4Core\Teacher4.Web\bin\Debug\netcoreapp2.1\Teacher4.Web.Views.dll
+F:\project\Main\MyAcademicNET3\Back\Teacher4Core\Teacher4.Web\bin\Debug\netcoreapp2.1\Teacher4.Web.Views.pdb
+F:\project\Main\MyAcademicNET3\Back\Teacher4Core\Teacher4.Web\bin\Debug\netcoreapp2.1\Teacher4.Core.dll
+F:\project\Main\MyAcademicNET3\Back\Teacher4Core\Teacher4.Web\bin\Debug\netcoreapp2.1\Teacher4.DataLayer.dll
+F:\project\Main\MyAcademicNET3\Back\Teacher4Core\Teacher4.Web\bin\Debug\netcoreapp2.1\Teacher4.Core.pdb
+F:\project\Main\MyAcademicNET3\Back\Teacher4Core\Teacher4.Web\bin\Debug\netcoreapp2.1\Teacher4.DataLayer.pdb
+F:\project\Main\MyAcademicNET3\Back\Teacher4Core\Teacher4.Web\obj\Debug\netcoreapp2.1\Teacher4.Web.Views.pdb
+F:\project\Main\MyAcademicNET3\Back\Teacher4Core\Teacher4.Web\obj\Debug\netcoreapp2.1\Teacher4.Web.csproj.CopyComplete
+F:\project\Main\MyAcademicNET3\Back\Teacher4Core\Teacher4.Web\obj\Debug\netcoreapp2.1\Razor\Views\Account\ForgotPassword.cshtml.g.cs
+F:\project\Main\MyAcademicNET3\Back\Teacher4Core\Teacher4.Web\obj\Debug\netcoreapp2.1\Razor\Views\Account\ResetPassword.cshtml.g.cs
+F:\project\Main\MyAcademicNET3\Back\Teacher4Core\Teacher4.Web\obj\Debug\netcoreapp2.1\Razor\Views\Shared\_ForgotPassword.cshtml.g.cs
+F:\project\Main\MyAcademicNET3\Back\Teacher4Core\Teacher4.Web\obj\Debug\netcoreapp2.1\Razor\Areas\UserPanel\Views\Home\Index.cshtml.g.cs
+F:\project\Main\MyAcademicNET3\Back\Teacher4Core\Teacher4.Web\obj\Debug\netcoreapp2.1\Razor\Areas\UserPanel\Views\_ViewStart.cshtml.g.cs
+F:\project\Main\MyAcademicNET3\Back\Teacher4Core\Teacher4.Web\obj\Debug\netcoreapp2.1\Razor\Areas\UserPanel\Views\Shared\_sideBar.cshtml.g.cs
+F:\project\Main\MyAcademicNET3\Back\Teacher4Core\Teacher4.Web\obj\Debug\netcoreapp2.1\Razor\Areas\UserPanel\Views\_ViewImports.cshtml.g.cs
+F:\project\Main\MyAcademicNET3\Back\Teacher4Core\Teacher4.Web\obj\Debug\netcoreapp2.1\Razor\Areas\UserPanel\Views\Home\ChangePassword.cshtml.g.cs
+F:\project\Main\MyAcademicNET3\Back\Teacher4Core\Teacher4.Web\obj\Debug\netcoreapp2.1\Razor\Areas\UserPanel\Views\Wallet\Index.cshtml.g.cs
+F:\project\Main\MyAcademicNET3\Back\Teacher4Core\Teacher4.Web\obj\Debug\netcoreapp2.1\Teacher4.Web.csproj.CoreCompileInputs.cache
+F:\project\Main\MyAcademicNET3\Back\Teacher4Core\Teacher4.Web\obj\Debug\netcoreapp2.1\Razor\Views\Home\onlinePayment.cshtml.g.cs
+F:\project\Main\MyAcademicNET3\Back\Teacher4Core\Teacher4.Web\obj\Debug\netcoreapp2.1\Razor\Pages\Shared\_AdminLayout.cshtml.g.cs
+F:\project\Main\MyAcademicNET3\Back\Teacher4Core\Teacher4.Web\obj\Debug\netcoreapp2.1\Razor\Pages\_ViewImports.cshtml.g.cs
+F:\project\Main\MyAcademicNET3\Back\Teacher4Core\Teacher4.Web\obj\Debug\netcoreapp2.1\Razor\Pages\_ViewStart.cshtml.g.cs
+F:\project\Main\MyAcademicNET3\Back\Teacher4Core\Teacher4.Web\obj\Debug\netcoreapp2.1\Razor\Pages\Admin\Users\Index.cshtml.g.cs
+F:\project\Main\MyAcademicNET3\Back\Teacher4Core\Teacher4.Web\obj\Debug\netcoreapp2.1\Razor\Pages\Admin\Users\CreateUser.cshtml.g.cs
+F:\project\Main\MyAcademicNET3\Back\Teacher4Core\Teacher4.Web\obj\Debug\netcoreapp2.1\Razor\Pages\Admin\Index.cshtml.g.cs
+F:\project\Main\MyAcademicNET3\Back\Teacher4Core\Teacher4.Web\obj\Debug\netcoreapp2.1\Razor\Pages\Admin\Users\EditUser.cshtml.g.cs
+F:\project\Main\MyAcademicNET3\Back\Teacher4Core\Teacher4.Web\obj\Debug\netcoreapp2.1\Razor\Pages\Admin\Users\DeleteUser.cshtml.g.cs
+F:\project\Main\MyAcademicNET3\Back\Teacher4Core\Teacher4.Web\obj\Debug\netcoreapp2.1\Razor\Pages\Admin\Users\ListDeleteUsers.cshtml.g.cs
+F:\project\Main\MyAcademicNET3\Back\Teacher4Core\Teacher4.Web\obj\Debug\netcoreapp2.1\Razor\Pages\Admin\Roles\CreateRole.cshtml.g.cs
+F:\project\Main\MyAcademicNET3\Back\Teacher4Core\Teacher4.Web\obj\Debug\netcoreapp2.1\Razor\Pages\Admin\Roles\DeleteRole.cshtml.g.cs
+F:\project\Main\MyAcademicNET3\Back\Teacher4Core\Teacher4.Web\obj\Debug\netcoreapp2.1\Razor\Pages\Admin\Roles\EditRole.cshtml.g.cs
+F:\project\Main\MyAcademicNET3\Back\Teacher4Core\Teacher4.Web\obj\Debug\netcoreapp2.1\Razor\Pages\Admin\Roles\Index.cshtml.g.cs
+F:\project\Main\MyAcademicNET3\Back\Teacher4Core\Teacher4.Web\obj\Debug\netcoreapp2.1\Razor\Views\Shared\Components\CourseGroupComponent\CourseGroup.cshtml.g.cs
+F:\project\Main\MyAcademicNET3\Back\Teacher4Core\Teacher4.Web\obj\Debug\netcoreapp2.1\Razor\Views\Shared\_Home.cshtml.g.cs
+F:\project\Main\MyAcademicNET3\Back\Teacher4Core\Teacher4.Web\bin\Debug\netcoreapp2.1\web.config
+F:\project\Main\MyAcademicNET3\Back\Teacher4Core\Teacher4.Web\obj\Debug\netcoreapp2.1\Razor\Pages\Admin\Courses\CreateCourse.cshtml.g.cs
+F:\project\Main\MyAcademicNET3\Back\Teacher4Core\Teacher4.Web\obj\Debug\netcoreapp2.1\Razor\Pages\Admin\Courses\Index.cshtml.g.cs
+F:\project\Main\MyAcademicNET3\Back\Teacher4Core\Teacher4.Web\obj\Debug\netcoreapp2.1\Razor\Pages\Admin\Courses\EditCourse.cshtml.g.cs
+F:\project\Main\MyAcademicNET3\Back\Teacher4Core\Teacher4.Web\obj\Debug\netcoreapp2.1\Razor\Pages\Admin\Courses\CreateEpisode.cshtml.g.cs
+F:\project\Main\MyAcademicNET3\Back\Teacher4Core\Teacher4.Web\obj\Debug\netcoreapp2.1\Razor\Pages\Admin\Courses\EditEpisode.cshtml.g.cs
+F:\project\Main\MyAcademicNET3\Back\Teacher4Core\Teacher4.Web\obj\Debug\netcoreapp2.1\Razor\Pages\Admin\Courses\IndexEpisode.cshtml.g.cs
+F:\project\Main\MyAcademicNET3\Back\Teacher4Core\Teacher4.Web\obj\Debug\netcoreapp2.1\Razor\Views\Shared\_BoxCourse.cshtml.g.cs
+F:\project\Main\MyAcademicNET3\Back\Teacher4Core\Teacher4.Web\obj\Debug\netcoreapp2.1\Razor\Views\Course\Index.cshtml.g.cs
+F:\project\Main\MyAcademicNET3\Back\Teacher4Core\Teacher4.Web\obj\Debug\netcoreapp2.1\Razor\Views\Course\ShowCourse.cshtml.g.cs
+F:\project\Main\MyAcademicNET3\Back\Teacher4Core\Teacher4.Web\obj\Debug\netcoreapp2.1\Razor\Areas\UserPanel\Views\MyOrders\ShowOrder.cshtml.g.cs
+F:\project\Main\MyAcademicNET3\Back\Teacher4Core\Teacher4.Web\obj\Debug\netcoreapp2.1\Razor\Areas\UserPanel\Views\MyOrders\Index.cshtml.g.cs
+F:\project\Main\MyAcademicNET3\Back\Teacher4Core\Teacher4.Web\obj\Debug\netcoreapp2.1\Razor\Views\Course\ShowComment.cshtml.g.cs
+F:\project\Main\MyAcademicNET3\Back\Teacher4Core\Teacher4.Web\obj\Debug\netcoreapp2.1\Razor\Pages\Admin\CourseGroups\CreateGroup.cshtml.g.cs
+F:\project\Main\MyAcademicNET3\Back\Teacher4Core\Teacher4.Web\obj\Debug\netcoreapp2.1\Razor\Pages\Admin\CourseGroups\EditGroup.cshtml.g.cs
+F:\project\Main\MyAcademicNET3\Back\Teacher4Core\Teacher4.Web\obj\Debug\netcoreapp2.1\Razor\Pages\Admin\CourseGroups\Index.cshtml.g.cs
+F:\Zahra Khosravi\Source\Teacher4.Web\bin\Debug\netcoreapp2.1\web.config
+F:\Zahra Khosravi\Source\Teacher4.Web\bin\Debug\netcoreapp2.1\Properties\launchSettings.json
+F:\Zahra Khosravi\Source\Teacher4.Web\bin\Debug\netcoreapp2.1\Teacher4.Web.deps.json
+F:\Zahra Khosravi\Source\Teacher4.Web\bin\Debug\netcoreapp2.1\Teacher4.Web.runtimeconfig.json
+F:\Zahra Khosravi\Source\Teacher4.Web\bin\Debug\netcoreapp2.1\Teacher4.Web.runtimeconfig.dev.json
+F:\Zahra Khosravi\Source\Teacher4.Web\bin\Debug\netcoreapp2.1\Teacher4.Web.dll
+F:\Zahra Khosravi\Source\Teacher4.Web\bin\Debug\netcoreapp2.1\Teacher4.Web.pdb
+F:\Zahra Khosravi\Source\Teacher4.Web\bin\Debug\netcoreapp2.1\Teacher4.Web.Views.dll
+F:\Zahra Khosravi\Source\Teacher4.Web\bin\Debug\netcoreapp2.1\Teacher4.Web.Views.pdb
+F:\Zahra Khosravi\Source\Teacher4.Web\bin\Debug\netcoreapp2.1\Teacher4.Core.dll
+F:\Zahra Khosravi\Source\Teacher4.Web\bin\Debug\netcoreapp2.1\Teacher4.DataLayer.dll
+F:\Zahra Khosravi\Source\Teacher4.Web\bin\Debug\netcoreapp2.1\Teacher4.Core.pdb
+F:\Zahra Khosravi\Source\Teacher4.Web\bin\Debug\netcoreapp2.1\Teacher4.DataLayer.pdb
+F:\Zahra Khosravi\Source\Teacher4.Web\obj\Debug\netcoreapp2.1\Teacher4.Web.csprojAssemblyReference.cache
+F:\Zahra Khosravi\Source\Teacher4.Web\obj\Debug\netcoreapp2.1\Teacher4.Web.csproj.CoreCompileInputs.cache
+F:\Zahra Khosravi\Source\Teacher4.Web\obj\Debug\netcoreapp2.1\Teacher4.Web.RazorAssemblyInfo.cache
+F:\Zahra Khosravi\Source\Teacher4.Web\obj\Debug\netcoreapp2.1\Teacher4.Web.RazorAssemblyInfo.cs
+F:\Zahra Khosravi\Source\Teacher4.Web\obj\Debug\netcoreapp2.1\Teacher4.Web.AssemblyInfoInputs.cache
+F:\Zahra Khosravi\Source\Teacher4.Web\obj\Debug\netcoreapp2.1\Teacher4.Web.AssemblyInfo.cs
+F:\Zahra Khosravi\Source\Teacher4.Web\obj\Debug\netcoreapp2.1\Teacher4.Web.TagHelpers.input.cache
+F:\Zahra Khosravi\Source\Teacher4.Web\obj\Debug\netcoreapp2.1\Teacher4.Web.TagHelpers.output.cache
+F:\Zahra Khosravi\Source\Teacher4.Web\obj\Debug\netcoreapp2.1\Teacher4.Web.RazorCoreGenerate.cache
+F:\Zahra Khosravi\Source\Teacher4.Web\obj\Debug\netcoreapp2.1\Razor\Areas\UserPanel\Views\Home\ChangePassword.cshtml.g.cs
+F:\Zahra Khosravi\Source\Teacher4.Web\obj\Debug\netcoreapp2.1\Razor\Areas\UserPanel\Views\Home\Index.cshtml.g.cs
+F:\Zahra Khosravi\Source\Teacher4.Web\obj\Debug\netcoreapp2.1\Razor\Areas\UserPanel\Views\MyOrders\Index.cshtml.g.cs
+F:\Zahra Khosravi\Source\Teacher4.Web\obj\Debug\netcoreapp2.1\Razor\Areas\UserPanel\Views\MyOrders\ShowOrder.cshtml.g.cs
+F:\Zahra Khosravi\Source\Teacher4.Web\obj\Debug\netcoreapp2.1\Razor\Areas\UserPanel\Views\Shared\_SideBar.cshtml.g.cs
+F:\Zahra Khosravi\Source\Teacher4.Web\obj\Debug\netcoreapp2.1\Razor\Areas\UserPanel\Views\Wallet\Index.cshtml.g.cs
+F:\Zahra Khosravi\Source\Teacher4.Web\obj\Debug\netcoreapp2.1\Razor\Areas\UserPanel\Views\_ViewImports.cshtml.g.cs
+F:\Zahra Khosravi\Source\Teacher4.Web\obj\Debug\netcoreapp2.1\Razor\Areas\UserPanel\Views\_ViewStart.cshtml.g.cs
+F:\Zahra Khosravi\Source\Teacher4.Web\obj\Debug\netcoreapp2.1\Razor\Pages\Admin\CourseGroups\CreateGroup.cshtml.g.cs
+F:\Zahra Khosravi\Source\Teacher4.Web\obj\Debug\netcoreapp2.1\Razor\Pages\Admin\CourseGroups\EditGroup.cshtml.g.cs
+F:\Zahra Khosravi\Source\Teacher4.Web\obj\Debug\netcoreapp2.1\Razor\Pages\Admin\CourseGroups\Index.cshtml.g.cs
+F:\Zahra Khosravi\Source\Teacher4.Web\obj\Debug\netcoreapp2.1\Razor\Pages\Admin\Courses\CreateCourse.cshtml.g.cs
+F:\Zahra Khosravi\Source\Teacher4.Web\obj\Debug\netcoreapp2.1\Razor\Pages\Admin\Courses\CreateEpisode.cshtml.g.cs
+F:\Zahra Khosravi\Source\Teacher4.Web\obj\Debug\netcoreapp2.1\Razor\Pages\Admin\Courses\EditCourse.cshtml.g.cs
+F:\Zahra Khosravi\Source\Teacher4.Web\obj\Debug\netcoreapp2.1\Razor\Pages\Admin\Courses\EditEpisode.cshtml.g.cs
+F:\Zahra Khosravi\Source\Teacher4.Web\obj\Debug\netcoreapp2.1\Razor\Pages\Admin\Courses\Index.cshtml.g.cs
+F:\Zahra Khosravi\Source\Teacher4.Web\obj\Debug\netcoreapp2.1\Razor\Pages\Admin\Courses\IndexEpisode.cshtml.g.cs
+F:\Zahra Khosravi\Source\Teacher4.Web\obj\Debug\netcoreapp2.1\Razor\Pages\Admin\Index.cshtml.g.cs
+F:\Zahra Khosravi\Source\Teacher4.Web\obj\Debug\netcoreapp2.1\Razor\Pages\Admin\Roles\CreateRole.cshtml.g.cs
+F:\Zahra Khosravi\Source\Teacher4.Web\obj\Debug\netcoreapp2.1\Razor\Pages\Admin\Roles\DeleteRole.cshtml.g.cs
+F:\Zahra Khosravi\Source\Teacher4.Web\obj\Debug\netcoreapp2.1\Razor\Pages\Admin\Roles\EditRole.cshtml.g.cs
+F:\Zahra Khosravi\Source\Teacher4.Web\obj\Debug\netcoreapp2.1\Razor\Pages\Admin\Roles\Index.cshtml.g.cs
+F:\Zahra Khosravi\Source\Teacher4.Web\obj\Debug\netcoreapp2.1\Razor\Pages\Admin\Users\CreateUser.cshtml.g.cs
+F:\Zahra Khosravi\Source\Teacher4.Web\obj\Debug\netcoreapp2.1\Razor\Pages\Admin\Users\DeleteUser.cshtml.g.cs
+F:\Zahra Khosravi\Source\Teacher4.Web\obj\Debug\netcoreapp2.1\Razor\Pages\Admin\Users\EditUser.cshtml.g.cs
+F:\Zahra Khosravi\Source\Teacher4.Web\obj\Debug\netcoreapp2.1\Razor\Pages\Admin\Users\Index.cshtml.g.cs
+F:\Zahra Khosravi\Source\Teacher4.Web\obj\Debug\netcoreapp2.1\Razor\Pages\Admin\Users\ListDeleteUsers.cshtml.g.cs
+F:\Zahra Khosravi\Source\Teacher4.Web\obj\Debug\netcoreapp2.1\Razor\Pages\Shared\_AdminLayout.cshtml.g.cs
+F:\Zahra Khosravi\Source\Teacher4.Web\obj\Debug\netcoreapp2.1\Razor\Pages\_ViewImports.cshtml.g.cs
+F:\Zahra Khosravi\Source\Teacher4.Web\obj\Debug\netcoreapp2.1\Razor\Pages\_ViewStart.cshtml.g.cs
+F:\Zahra Khosravi\Source\Teacher4.Web\obj\Debug\netcoreapp2.1\Razor\Views\Account\ActiveAccount.cshtml.g.cs
+F:\Zahra Khosravi\Source\Teacher4.Web\obj\Debug\netcoreapp2.1\Razor\Views\Account\ForgotPassword.cshtml.g.cs
+F:\Zahra Khosravi\Source\Teacher4.Web\obj\Debug\netcoreapp2.1\Razor\Views\Account\Login.cshtml.g.cs
+F:\Zahra Khosravi\Source\Teacher4.Web\obj\Debug\netcoreapp2.1\Razor\Views\Account\Register.cshtml.g.cs
+F:\Zahra Khosravi\Source\Teacher4.Web\obj\Debug\netcoreapp2.1\Razor\Views\Account\ResetPassword.cshtml.g.cs
+F:\Zahra Khosravi\Source\Teacher4.Web\obj\Debug\netcoreapp2.1\Razor\Views\Account\SuccessRegister.cshtml.g.cs
+F:\Zahra Khosravi\Source\Teacher4.Web\obj\Debug\netcoreapp2.1\Razor\Views\Course\Index.cshtml.g.cs
+F:\Zahra Khosravi\Source\Teacher4.Web\obj\Debug\netcoreapp2.1\Razor\Views\Course\ShowComment.cshtml.g.cs
+F:\Zahra Khosravi\Source\Teacher4.Web\obj\Debug\netcoreapp2.1\Razor\Views\Course\ShowCourse.cshtml.g.cs
+F:\Zahra Khosravi\Source\Teacher4.Web\obj\Debug\netcoreapp2.1\Razor\Views\Home\Index.cshtml.g.cs
+F:\Zahra Khosravi\Source\Teacher4.Web\obj\Debug\netcoreapp2.1\Razor\Views\Home\onlinePayment.cshtml.g.cs
+F:\Zahra Khosravi\Source\Teacher4.Web\obj\Debug\netcoreapp2.1\Razor\Views\Shared\Components\CourseGroupComponent\CourseGroup.cshtml.g.cs
+F:\Zahra Khosravi\Source\Teacher4.Web\obj\Debug\netcoreapp2.1\Razor\Views\Shared\_Account.cshtml.g.cs
+F:\Zahra Khosravi\Source\Teacher4.Web\obj\Debug\netcoreapp2.1\Razor\Views\Shared\_ActiiveEmail.cshtml.g.cs
+F:\Zahra Khosravi\Source\Teacher4.Web\obj\Debug\netcoreapp2.1\Razor\Views\Shared\_BoxCourse.cshtml.g.cs
+F:\Zahra Khosravi\Source\Teacher4.Web\obj\Debug\netcoreapp2.1\Razor\Views\Shared\_DefaultLayout.cshtml.g.cs
+F:\Zahra Khosravi\Source\Teacher4.Web\obj\Debug\netcoreapp2.1\Razor\Views\Shared\_Footer.cshtml.g.cs
+F:\Zahra Khosravi\Source\Teacher4.Web\obj\Debug\netcoreapp2.1\Razor\Views\Shared\_ForgotPassword.cshtml.g.cs
+F:\Zahra Khosravi\Source\Teacher4.Web\obj\Debug\netcoreapp2.1\Razor\Views\Shared\_Home.cshtml.g.cs
+F:\Zahra Khosravi\Source\Teacher4.Web\obj\Debug\netcoreapp2.1\Razor\Views\Shared\_MetaTaks.cshtml.g.cs
+F:\Zahra Khosravi\Source\Teacher4.Web\obj\Debug\netcoreapp2.1\Razor\Views\Shared\_Styles.cshtml.g.cs
+F:\Zahra Khosravi\Source\Teacher4.Web\obj\Debug\netcoreapp2.1\Razor\Views\Shared\_TopMenu.cshtml.g.cs
+F:\Zahra Khosravi\Source\Teacher4.Web\obj\Debug\netcoreapp2.1\Razor\Views\_ViewImports.cshtml.g.cs
+F:\Zahra Khosravi\Source\Teacher4.Web\obj\Debug\netcoreapp2.1\Razor\Views\_ViewStart.cshtml.g.cs
+F:\Zahra Khosravi\Source\Teacher4.Web\obj\Debug\netcoreapp2.1\Teacher4.Web.RazorTargetAssemblyInfo.cache
+F:\Zahra Khosravi\Source\Teacher4.Web\obj\Debug\netcoreapp2.1\Teacher4.Web.RazorTargetAssemblyInfo.cs
+F:\Zahra Khosravi\Source\Teacher4.Web\obj\Debug\netcoreapp2.1\Teacher4.Web.Views.pdb
+F:\Zahra Khosravi\Source\Teacher4.Web\obj\Debug\netcoreapp2.1\Teacher4.Web.csproj.CopyComplete
+F:\Zahra Khosravi\Source\Teacher4.Web\obj\Debug\netcoreapp2.1\Teacher4.Web.dll
+F:\Zahra Khosravi\Source\Teacher4.Web\obj\Debug\netcoreapp2.1\Teacher4.Web.pdb
+F:\Zahra Khosravi\Source\Teacher4.Web\obj\Debug\netcoreapp2.1\Teacher4.Web.genruntimeconfig.cache

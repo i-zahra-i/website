@@ -1,0 +1,24 @@
+F:\project\Main\MyAcademicNET3\Back\Teacher4Core\Teacher4.DataLayer\bin\Debug\netcoreapp2.1\Teacher4.DataLayer.deps.json
+F:\project\Main\MyAcademicNET3\Back\Teacher4Core\Teacher4.DataLayer\bin\Debug\netcoreapp2.1\Teacher4.DataLayer.dll
+F:\project\Main\MyAcademicNET3\Back\Teacher4Core\Teacher4.DataLayer\obj\Debug\netcoreapp2.1\Teacher4.DataLayer.AssemblyInfoInputs.cache
+F:\project\Main\MyAcademicNET3\Back\Teacher4Core\Teacher4.DataLayer\obj\Debug\netcoreapp2.1\Teacher4.DataLayer.AssemblyInfo.cs
+F:\project\Main\MyAcademicNET3\Back\Teacher4Core\Teacher4.DataLayer\bin\Debug\netcoreapp2.1\Teacher4.DataLayer.runtimeconfig.json
+F:\project\Main\MyAcademicNET3\Back\Teacher4Core\Teacher4.DataLayer\bin\Debug\netcoreapp2.1\Teacher4.DataLayer.runtimeconfig.dev.json
+F:\project\Main\MyAcademicNET3\Back\Teacher4Core\Teacher4.DataLayer\obj\Debug\netcoreapp2.1\Teacher4.DataLayer.genruntimeconfig.cache
+F:\project\Main\MyAcademicNET3\Back\Teacher4Core\Teacher4.DataLayer\bin\Debug\netcoreapp2.1\Teacher4.DataLayer.pdb
+F:\project\Main\MyAcademicNET3\Back\Teacher4Core\Teacher4.DataLayer\obj\Debug\netcoreapp2.1\Teacher4.DataLayer.csproj.CoreCompileInputs.cache
+F:\project\Main\MyAcademicNET3\Back\Teacher4Core\Teacher4.DataLayer\obj\Debug\netcoreapp2.1\Teacher4.DataLayer.dll
+F:\project\Main\MyAcademicNET3\Back\Teacher4Core\Teacher4.DataLayer\obj\Debug\netcoreapp2.1\Teacher4.DataLayer.pdb
+F:\project\Main\MyAcademicNET3\Back\Teacher4Core\Teacher4.DataLayer\obj\Debug\netcoreapp2.1\Teacher4.DataLayer.csprojAssemblyReference.cache
+F:\Zahra Khosravi\Source\Teacher4.DataLayer\bin\Debug\netcoreapp2.1\Teacher4.DataLayer.deps.json
+F:\Zahra Khosravi\Source\Teacher4.DataLayer\bin\Debug\netcoreapp2.1\Teacher4.DataLayer.runtimeconfig.json
+F:\Zahra Khosravi\Source\Teacher4.DataLayer\bin\Debug\netcoreapp2.1\Teacher4.DataLayer.runtimeconfig.dev.json
+F:\Zahra Khosravi\Source\Teacher4.DataLayer\bin\Debug\netcoreapp2.1\Teacher4.DataLayer.dll
+F:\Zahra Khosravi\Source\Teacher4.DataLayer\bin\Debug\netcoreapp2.1\Teacher4.DataLayer.pdb
+F:\Zahra Khosravi\Source\Teacher4.DataLayer\obj\Debug\netcoreapp2.1\Teacher4.DataLayer.csprojAssemblyReference.cache
+F:\Zahra Khosravi\Source\Teacher4.DataLayer\obj\Debug\netcoreapp2.1\Teacher4.DataLayer.csproj.CoreCompileInputs.cache
+F:\Zahra Khosravi\Source\Teacher4.DataLayer\obj\Debug\netcoreapp2.1\Teacher4.DataLayer.AssemblyInfoInputs.cache
+F:\Zahra Khosravi\Source\Teacher4.DataLayer\obj\Debug\netcoreapp2.1\Teacher4.DataLayer.AssemblyInfo.cs
+F:\Zahra Khosravi\Source\Teacher4.DataLayer\obj\Debug\netcoreapp2.1\Teacher4.DataLayer.dll
+F:\Zahra Khosravi\Source\Teacher4.DataLayer\obj\Debug\netcoreapp2.1\Teacher4.DataLayer.pdb
+F:\Zahra Khosravi\Source\Teacher4.DataLayer\obj\Debug\netcoreapp2.1\Teacher4.DataLayer.genruntimeconfig.cache

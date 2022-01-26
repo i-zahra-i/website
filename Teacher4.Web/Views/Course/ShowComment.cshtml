@@ -1,0 +1,48 @@
+﻿@using Teacher4.Core.Convertors
+@using Teacher4.DataLayer.Entities.Course
+@model Tuple<List<Teacher4.DataLayer.Entities.Course.CourseComment>, int>
+@{
+    Layout = null;
+}
+@foreach (var item in Model.Item1)
+{
+
+    <article class="media">
+        <figure class="media-left">
+            <p class="image is-64x64">
+                <img src="/UserAvatar/@item.User.UserAvatar">
+            </p>
+        </figure>
+        <div class="media-content">
+            <div class="content">
+                <p>
+                    <strong> @item.User.UserName</strong>
+                    <br>
+                    @item.Comment
+                </p>
+            </div>
+            <nav class="level is-mobile">
+                <div class="level-left">
+                    <a class="level-item">
+                        <span class="is-small">@item.CreateDate.ToShamsi()</span>
+
+
+                    </a>
+                </div>
+            </nav>
+        </div>
+    </article>
+
+}
+<div class="container my-6">
+    <nav class="pagination is-centered" role="navigation" aria-label="pagination">
+        <ul class="pagination-list">
+
+            @for (int i = 1; i <= (int)Model.Item2; i++)
+            {
+                <li><a class="pagination-link " aria-label="Goto page @i" onclick="pageComment(@i)">@i</a></li>
+            }
+        </ul>
+    </nav>
+</div>
+

@@ -1,0 +1,14 @@
+﻿@model Teacher4.DataLayer.Entities.User.User
+@{
+    Layout = Layout = "/Views/Shared/_Account.cshtml";
+    ViewData["Title"] = "پایان ثبت نام";
+}
+<section class="section">
+    <div class="container">
+        <div class="notification is-success is-light">
+            <h2>@Model.UserName عزیز !</h2>
+            <p>ثبت نام شما انجام شد ، ایمیلی حاوی لینک فعالسازی به ایمیل "@Model.Email" ارسال شد .</p>
+            <p>جهت ادامه ثبت نام وارد ایمیل خود شوید و روی لینک کلیک کنید .</p>
+        </div>
+        </div>
+</section>

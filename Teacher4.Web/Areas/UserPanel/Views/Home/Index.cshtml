@@ -1,0 +1,59 @@
+﻿@using Teacher4.Core.Convertors
+@model Teacher4.Core.DTOs.InformationUserViewModel
+@{
+    ViewData["Title"] = "پنل کاربری";
+    Layout = "~/Views/Shared/_Account.cshtml";
+}
+<!--------------------------------  Start body  ------------------------------->
+<section>
+    <div class="container">
+        <div class="columns mt-4">
+            <!-------------- Side Right -------------->
+            <partial name="_SideBar" />
+            <!--------------- Side Left -------------->
+            <div class="column" id="Side-left">
+                <div class="columns flex">
+                    <!-- properties -->
+                    <div class="column is-12 ">
+                        <div class="message is-info is-light ">
+                            <div class="message-header">
+                                <span> داشبورد</span>
+                            </div>
+                            <div class="message-body px-4 pb-3 side-detail box">
+                                <div class="icon-text has-text-weight-semibold mb-3 mr-3">
+                                    <span>اطلاعات کاربری</span>
+                                </div>
+                                <div class="icon-text">
+                                    <span class="icon has-text-info">
+                                        <i class="fas fa-user"></i>
+                                    </span>
+                                    <span>نام کاربر : @Model.UserName </span>
+                                </div>
+                                <div class="icon-text">
+                                    <span class="icon has-text-info">
+                                        <i class="fas fa-envelope"></i>
+                                    </span>
+                                    <span> ایمیل : @Model.Email</span>
+                                </div>
+                                <div class="icon-text">
+                                    <span class="icon has-text-info">
+                                        <i class="fas fa-calendar-alt"></i>
+                                    </span>
+                                    <span> تاریخ عضویت : @Model.RegisterDate.ToShamsi()</span>
+                                </div>
+                                <div class="icon-text">
+                                    <span class="icon has-text-info">
+                                        <i class="fas fa-wallet"></i>
+                                    </span>
+                                    <span> موجودی حساب :  @Model.Wallet تومان</span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+

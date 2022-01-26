@@ -1,0 +1,26 @@
+﻿@model Teacher4.Core.DTOs.Course.ShowCourseListItemViewModel
+<div class="carousel-item">
+    <div class="carousel-item__card">
+        <a href="/ShowCourse/@Model.CourseId">
+            <div class="card">
+                <div class="card-image">
+                    <figure class="image style=" height: 150px"">
+                        <img src="/course/image/@Model.ImageName" alt="تصویر ویدیو">
+                    </figure>
+                </div>
+                <div class="card-content">
+                    <a href="/ShowCourse/@Model.CourseId">
+                        <p class="titel is-size-6 has-text-primary-dark">
+                            @Model.Title
+                        </p>
+                    </a>
+                </div>
+                <div class="card-footer">
+                    <p class="card-footer-item">
+                        <span class="subtitel  has-text-info-dark"> @((Model.Price==0)?"رایگان":Model.Price.ToString("#,0"))</span>
+                    </p>
+                </div>
+            </div>
+        </a>
+    </div>
+</div>

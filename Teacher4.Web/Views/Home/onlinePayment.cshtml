@@ -1,0 +1,25 @@
+﻿
+@{
+    ViewData["Title"] = "نتیجه پرداخت";
+    Layout = "~/Views/Shared/_Account.cshtml";
+}
+<section class="section">
+    <div class="container">
+
+        @if (ViewBag.IsSuccess == true)
+        {
+            <div class="notification is-success is-light">
+                <h2>پرداخت با موفقیت انجام شد</h2>
+                <p> کد پیگیری : @ViewBag.Code</p>
+            </div>
+        }
+        else
+        {
+            <div class="notification is-danger is-light">
+                <h2>پرداخت با شکست مواجه شد</h2>
+
+            </div>
+        }
+    </div>
+</section>
+

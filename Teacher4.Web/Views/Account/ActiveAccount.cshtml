@@ -1,0 +1,26 @@
+﻿
+@{
+    ViewData["Title"] = "فعالسازی";
+    Layout = "~/Views/Shared/_Account.cshtml";
+}
+
+
+
+<div class="container">
+    @if (ViewBag.IsActive)
+    {
+        <div class="notification is-success is-light">
+            <p>حساب کاربری شما با موفقیت فعال شد</p>
+            <p>
+                <a href="/Login"><strong>ورود به سایت</strong></a>
+            </p>
+        </div>
+    }
+    else
+    {
+        <div class="notification is-danger is-light">
+            <p>حساب کاربری با مشخصات ارسال شده یافت نشد</p>
+        </div>
+    }
+</div>
+

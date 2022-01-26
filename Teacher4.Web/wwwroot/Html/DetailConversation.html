@@ -1,0 +1,414 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="shortcut icon" type="image/png" href="../Image/iconTeacher4.png" sizes="128x128">
+    <title> جزئیات پرسش و پاسخ</title>
+    <link rel="stylesheet" href="https://unpkg.com/swiper/swiper-bundle.min.css" />
+    <!--<link rel="stylesheet" href="../Css/Bulma/css/bulma.min.css">
+    <link rel="stylesheet" href="../Css/all.min.css">-->
+    <link rel="stylesheet" href="  https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bulma@0.9.2/css/bulma.min.css">
+    <link rel="stylesheet" href="../Css/AllSelectStyle.css">
+    <!--<link rel="stylesheet" href="../Bulma/css/debug.css">-->
+</head>
+
+<body>
+    <!------------------------------  Start Top Munu  ---------------------------->
+    <section>
+        <div class="main-menu">
+            <div class="container">
+                <nav class="level is-mobile">
+                    <!-- Left side -->
+                    <div class="level-left is-mobile">
+                        <p class="level-item"> <a class="navbar-item is-size-5-desktop"><span class="icon "><i
+                                        class="fas fa-shopping-bag"></i></span></a></p>
+                        <p class="level-item"> <a class=" navbar-item is-size-5-desktop user"><span class="icon"><i
+                                        class="fas fa-user"></i></span></a></p>
+                        <p class="level-item"> <a class="navbar-item is-size-5-desktop" href="#footer"><span
+                                    class="icon"><i class="fas fa-info"></i></span></a></p>
+                        <p class="level-item"> <a class="navbar-item is-size-5-desktop"><span class="icon"><i
+                                        class="fas fa-phone-alt"></i></span></a></p>
+                    </div>
+                    <!-- Right side -->
+                    <div class="level-right is-mobile">
+                        <div class="level-item">
+                            <div class="dropdown is-hoverable">
+                                <div class="dropdown-trigger">
+                                    <button class="button" aria-haspopup="true" aria-controls="dropdown-menu4">
+                                        <span>نام دروس</span>
+                                        <span class="icon is-small">
+                                            <i class="fas fa-angle-down" aria-hidden="true"></i>
+                                        </span>
+                                    </button>
+                                </div>
+                                <div class="dropdown-menu" id="dropdown-menu4" role="menu">
+                                    <div class="dropdown-content">
+                                        <a href="#" class="dropdown-item">
+                                            ریاضی
+                                        </a>
+                                        <a href="#" class="dropdown-item">
+                                            فارسی
+                                        </a>
+                                        <a href="#" class="dropdown-item">
+                                            علوم
+                                        </a>
+                                        <a href="#" class="dropdown-item">
+                                            قرآن
+                                        </a>
+                                        <a href="#" class="dropdown-item">
+                                            هدیه های آسمانی
+                                        </a>
+                                        <a href="#" class="dropdown-item">
+                                            مطالعات اجتماعی
+                                        </a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="level-item">
+                            <a href="" class="navbar-item ">
+                                خانه
+                            </a>
+                        </div>
+                    </div>
+                </nav>
+            </div>
+        </div>
+    </section>
+    <div class="my5"><br></div>
+    <!------------------------------  Start Main Munu  ---------------------------->
+    <section>
+        <div class="container detile mt-6">
+            <nav class="navbar is-warning box">
+                <div class="navbar-brand">
+                    <div class="navbar-burger" data-target="navbarExampleTransparentExample">
+                        <span></span>
+                        <span></span>
+                        <span></span>
+                    </div>
+                </div>
+                <div id="navbarExampleTransparentExample" class="navbar-menu">
+                    <div class="navbar-end">
+                        <img class="icon-wh"
+                            src="data:image/svg+xml;base64,PHN2ZyBpZD0iTGF5ZXJfMyIgZW5hYmxlLWJhY2tncm91bmQ9Im5ldyAwIDAgNjQgNjQiIGhlaWdodD0iNTEyIiB2aWV3Qm94PSIwIDAgNjQgNjQiIHdpZHRoPSI1MTIiIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyI+PGc+PHBhdGggZD0ibTYzIDIxLjUzNmMwLTIuNTAxLTIuMDM1LTQuNTM2LTQuNTM2LTQuNTM2LTEuMjExIDAtMi4zNTEuNDcyLTMuMjA3IDEuMzI5bC0yLjk2NCAyLjk2NC0zLjI5MyAzLjI5M3YtOS42NjZjMy4zODctLjQ4OCA2LTMuNDAxIDYtNi45MiAwLTMuODYtMy4xNC03LTctN2gtNDBjLTMuODYgMC03IDMuMTQtNyA3djUwYzAgLjU1Mi40NDggMSAxIDFoNXYzYzAgLjU1Mi40NDggMSAxIDFoNDBjLjU1MiAwIDEtLjQ0OCAxLTF2LTI0LjU4Nmw5LjcwNy05LjcwNyAxLjAyNy0xLjAyN2MtLjUxOCAyLjU4LTEuNzgxIDQuOTUyLTMuNjgzIDYuODU1bC00Ljc1NyA0Ljc1NyAxLjQxNCAxLjQxNCA0Ljc1Ny00Ljc1N2MyLjgzOC0yLjgzOCA0LjQyNS02LjU4NiA0LjUxOC0xMC41ODUuNjQ3LS44MDIgMS4wMTctMS43ODIgMS4wMTctMi44Mjh6bS02LjMyOS0xLjc5M2MuNDc5LS40NzkgMS4xMTYtLjc0MyAxLjc5My0uNzQzIDEuMzk4IDAgMi41MzYgMS4xMzggMi41MzYgMi41MzYgMCAuNjc3LS4yNjQgMS4zMTQtLjc0MyAxLjc5M2wtMi4yNTcgMi4yNTctMy41ODYtMy41ODZ6bS0zLjY3MSAzLjY3MSAxLjA4NiAxLjA4Ni0xMi41ODYgMTIuNTg2LTEuMDg2LTEuMDg2em0tMjMuNzgzIDI2LjM4OSAyLjA1Ny00LjExNSAzLjAzOCAzLjAzOC00LjExNSAyLjA1N3ptMy4xOTctNS44MDMgNi41ODYtNi41ODYgMy41ODYgMy41ODYtNi41ODYgNi41ODZ6bTE1LjU4Ni00MWMyLjc1NyAwIDUgMi4yNDMgNSA1cy0yLjI0MyA1LTUgNWgtMzUuMTFjMS4zLTEuMjcyIDIuMTEtMy4wNDIgMi4xMS01cy0uODEtMy43MjgtMi4xMS01em0tMzkgOS44OTl2LTIuODk5YzAtLjU1MS40NDktMSAxLTFoMi44OTljLS4zOTkgMS45NTYtMS45NDMgMy41LTMuODk5IDMuODk5em0tNiA0NC4xMDF2LTQ5YzAtMi43NTcgMi4yNDMtNSA1LTUgMi40MTQgMCA0LjQzNCAxLjcyMSA0Ljg5OSA0aC0yLjg5OWMtMS42NTQgMC0zIDEuMzQ2LTMgM3Y0N3ptNDQgNGgtMzh2LTQ2aDM4djExLjU4NmwtNC40MTQgNC40MTRoLTI5LjU4NnYyaDI3LjU4NmwtMiAyaC0yNS41ODZ2MmgyMy41ODZsLTYuMjkzIDYuMjkzYy0uMDc4LjA3OC0uMTI5LjE3MS0uMTc2LjI2NWwtLjAxMS0uMDA2LTMgNmMtLjE5Mi4zODUtLjExNy44NS4xODggMS4xNTRsLjI5Mi4yOTQtMi4yOTMgMi4yOTMgMS40MTQgMS40MTQgMi4yOTMtMi4yOTMuMjkzLjI5M2MuMTkyLjE5Mi40NDguMjkzLjcwNy4yOTMuMTUxIDAgLjMwNS0uMDM1LjQ0Ny0uMTA1bDYtMy0uMDA2LS4wMTFjLjA5NC0uMDQ3LjE4Ny0uMDk4LjI2NS0uMTc2bDgtOCAyLjI5NC0yLjI5NHptLTMtMjEuNDE0LTEuMDg2LTEuMDg2IDEyLjU4Ni0xMi41ODYgMS4wODYgMS4wODZ6Ii8+PHBhdGggZD0ibTEzIDE5aDMwdjJoLTMweiIvPjxwYXRoIGQ9Im0xMyAyM2gzMHYyaC0zMHoiLz48cGF0aCBkPSJtMTMgMjdoMzB2MmgtMzB6Ii8+PHBhdGggZD0ibTEzIDUxaDExdjJoLTExeiIvPjxwYXRoIGQ9Im0xMyA1NWgzMHYyaC0zMHoiLz48L2c+PC9zdmc+" />
+                        <a href="" class="navbar-item ">
+                            نمونه سوال
+                        </a>
+                        <img class="icon-wh"
+                            src="data:image/svg+xml;base64,PHN2ZyBpZD0iQ2FwYV8xIiBlbmFibGUtYmFja2dyb3VuZD0ibmV3IDAgMCA1MTEuMjQ2IDUxMS4yNDYiIGhlaWdodD0iNTEyIiB2aWV3Qm94PSIwIDAgNTExLjI0NiA1MTEuMjQ2IiB3aWR0aD0iNTEyIiB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciPjxnPjxwYXRoIGQ9Im01MDMuNzQ2IDQyMS4xMDJoLTEyLjQxNXYtMjY0LjM0M2MwLTI3LjAyMS0yMS45ODQtNDkuMDA1LTQ5LjAwNi00OS4wMDVoLTU1LjgxNGMtNC4xNDMgMC03LjUgMy4zNTctNy41IDcuNXMzLjM1NyA3LjUgNy41IDcuNWg1NS44MTRjMTguNzUxIDAgMzQuMDA2IDE1LjI1NSAzNC4wMDYgMzQuMDA1djI2NC4zNDNoLTE2Ny42NTNjLTUuMTE4IDAtOS44OTMgMi41MjUtMTIuNzcxIDYuNzU2bC0yLjI0OSAzLjMwNWMtMi4wOSAzLjA3MS01LjU1NSA0LjkwNC05LjI3IDQuOTA0aC01OC41MzFjLTMuNzE1IDAtNy4xOC0xLjgzMy05LjI3LTQuOTA0bC0yLjI0OC0zLjMwNGMtMi44NzgtNC4yMy03LjY1Mi02Ljc1Ny0xMi43NzEtNi43NTdoLTE2Ni42NTN2LTI2NC4zNDNjMC0xOC43NSAxNS4yNTUtMzQuMDA1IDM0LjAwNi0zNC4wMDVoNDguMzA0YzQuMTQzIDAgNy41LTMuMzU3IDcuNS03LjVzLTMuMzU3LTcuNS03LjUtNy41aC00OC4zMDRjLTI3LjAyMSAwLTQ5LjAwNiAyMS45ODMtNDkuMDA2IDQ5LjAwNXYyNjQuMzQzaC0xMi40MTVjLTQuMTQzIDAtNy41IDMuMzU3LTcuNSA3LjV2MTUuNjE1YzAgMjguMjMxIDIyLjk2OCA1MS4xOTkgNTEuMTk5IDUxLjE5OWg0MDguODQ4YzI4LjIzMSAwIDUxLjE5OS0yMi45NjggNTEuMTk5LTUxLjE5OXYtMTUuNjE1YzAtNC4xNDMtMy4zNTctNy41LTcuNS03LjV6bS03LjUgMjMuMTE1YzAgMTkuOTYtMTYuMjM5IDM2LjE5OS0zNi4xOTkgMzYuMTk5aC00MDguODQ4Yy0xOS45NiAwLTM2LjE5OS0xNi4yMzktMzYuMTk5LTM2LjE5OXYtOC4xMTVoMTg2LjU2OGMuMTQ4IDAgLjI4Ni4wNzIuMzcuMTk1bDIuMjQ5IDMuMzA1YzQuODg2IDcuMTc5IDEyLjk4NiAxMS40NjUgMjEuNjcgMTEuNDY1aDU4LjUzMWM4LjY4NCAwIDE2Ljc4NC00LjI4NiAyMS42Ny0xMS40NjVsMi4yNDktMy4zMDUuMDAxLS4wMDFjLjA4My0uMTIyLjIyMS0uMTk0LjM2OS0uMTk0aDE4Ny41Njh2OC4xMTV6Ii8+PHBhdGggZD0ibTUxLjkxNSAzOTYuNjAyYzAgNC4xNDMgMy4zNTcgNy41IDcuNSA3LjVoMzkyLjQxNmM0LjE0MyAwIDcuNS0zLjM1NyA3LjUtNy41di0yMzkuODQzYzAtOS4zNzctNy42MjktMTcuMDA2LTE3LjAwNi0xNy4wMDZoLTU1LjgxNGMtNC4xNDMgMC03LjUgMy4zNTctNy41IDcuNXMzLjM1NyA3LjUgNy41IDcuNWg1NS44MTRjMS4xMDYgMCAyLjAwNi44OTkgMi4wMDYgMi4wMDZ2MjMyLjM0M2gtMTA4Ljc5NnYtMzAuNjIyYzAtMTYuMjg1LTYuMzQyLTMxLjU5NS0xNy44NTctNDMuMTExbC05Ljc2NS05Ljc2NWMzLjQ2NC01LjM3MiA2LjE0Ny0xMS4zMzUgNy44NDQtMTcuNzY0IDEuMDU3LTQuMDA1LTEuMzMzLTguMTA4LTUuMzM4LTkuMTY2LTQuMDA3LTEuMDU0LTguMTA3IDEuMzMzLTkuMTY2IDUuMzM4LTEuNzM4IDYuNTg0LTQuODMgMTIuNTMyLTguOTIzIDE3LjU4Ni0uMDMuMDM2LS4wNi4wNzEtLjA4OS4xMDYtOC43NiAxMC43NTQtMjIuMDc2IDE3LjQyMS0zNi42MTggMTcuNDIxLTI2LjAyNCAwLTQ3LjE5Ny0yMS4xNzMtNDcuMTk3LTQ3LjE5N3MyMS4xNzMtNDcuMTk3IDQ3LjE5Ny00Ny4xOTdjMjAuMDgyIDAgMzcuOTk5IDEyLjc0NSA0NC41ODYgMzEuNzE1IDEuMzU4IDMuOTEyIDUuNjI2IDUuOTg0IDkuNTQ1IDQuNjI1IDMuOTEzLTEuMzU4IDUuOTgzLTUuNjMyIDQuNjI1LTkuNTQ1LTguNjgtMjQuOTk5LTMyLjI5Mi00MS43OTUtNTguNzU2LTQxLjc5NS0zNC4yOTYgMC02Mi4xOTcgMjcuOTAxLTYyLjE5NyA2Mi4xOTcgMCAxMi4zOTQgMy42NTggMjMuOTQzIDkuOTMxIDMzLjY1MmwtOS43ODkgOS43ODljLTExLjUxNiAxMS41MTctMTcuODU3IDI2LjgyNi0xNy44NTcgNDMuMTExdjMwLjYyMmgtMTA4Ljc5NnYtMjcuNDc3YzAtNC4xNDMtMy4zNTctNy41LTcuNS03LjVzLTcuNSAzLjM1Ny03LjUgNy41em0xMzguNzk2LTM4LjEyM2MwLTEyLjI3OCA0Ljc4Mi0yMy44MjEgMTMuNDY1LTMyLjUwNGw4LjgxOS04LjgxOWMxMS4xNDIgMTAuNTA4IDI2LjE0MSAxNi45NjggNDIuNjI4IDE2Ljk2OCAxNi4yOCAwIDMxLjM5MS02LjM0NyA0Mi42NTEtMTYuOTQ2bDguNzk3IDguNzk2YzguNjgzIDguNjgzIDEzLjQ2NSAyMC4yMjYgMTMuNDY1IDMyLjUwNHYzMC42MjJoLTEyOS44MjV6Ii8+PHBhdGggZD0ibTU5LjQxNSAzMzcuMTM1YzQuMTQzIDAgNy41LTMuMzU3IDcuNS03LjV2LTE3Mi44NzZjMC0xLjEwNi44OTktMi4wMDYgMi4wMDUtMi4wMDZoNDguMzA1YzQuMTQzIDAgNy41LTMuMzU3IDcuNS03LjVzLTMuMzU3LTcuNS03LjUtNy41aC00OC4zMDVjLTkuMzc3IDAtMTcuMDA1IDcuNjI5LTE3LjAwNSAxNy4wMDZ2MTcyLjg3NmMwIDQuMTQyIDMuMzU3IDcuNSA3LjUgNy41eiIvPjxwYXRoIGQ9Im0xNzIuMzI5IDE5My44OGgxNTkuMDc3YzE3Ljk3OSAwIDMyLjYwNC0xNC42MjYgMzIuNjA0LTMyLjYwNHYtMTEyLjg0YzAtMTcuOTc5LTE0LjYyNi0zMi42MDUtMzIuNjA0LTMyLjYwNWgtMTU5LjA3N2MtMTcuOTc5IDAtMzIuNjA0IDE0LjYyNy0zMi42MDQgMzIuNjA1djE1LjcwN2MwIDQuMTQzIDMuMzU3IDcuNSA3LjUgNy41czcuNS0zLjM1NyA3LjUtNy41di0xNS43MDdjMC05LjcwOCA3Ljg5Ny0xNy42MDUgMTcuNjA0LTE3LjYwNWgxNTkuMDc3YzkuNzA3IDAgMTcuNjA0IDcuODk3IDE3LjYwNCAxNy42MDV2MTEyLjg0YzAgOS43MDctNy44OTcgMTcuNjA0LTE3LjYwNCAxNy42MDRoLTE1OS4wNzdjLTkuNzA3IDAtMTcuNjA0LTcuODk3LTE3LjYwNC0xNy42MDR2LTY1LjE0NGMwLTQuMTQzLTMuMzU3LTcuNS03LjUtNy41cy03LjUgMy4zNTctNy41IDcuNXY2NS4xNDRjMCAxNy45NzggMTQuNjI2IDMyLjYwNCAzMi42MDQgMzIuNjA0eiIvPjxwYXRoIGQ9Im0yMzEuODQ0IDE1MS4zNDRjMy4zNjkgMCA2LjczNy0uOSA5LjgtMi42OTlsNDYuMTMxLTI3LjEwNGM1Ljk3OS0zLjUxNCA5LjU0OC05Ljc1MSA5LjU0OC0xNi42ODZzLTMuNTctMTMuMTcyLTkuNTQ4LTE2LjY4NGwtNDYuMTMyLTI3LjEwNGMtNi4wNTctMy41NTktMTMuMzE2LTMuNjAxLTE5LjQxNC0uMTEtNi4wOTkgMy40OS05LjczOSA5Ljc2OS05LjczOSAxNi43OTV2NTQuMjA4YzAgNy4wMjYgMy42NDEgMTMuMzA2IDkuNzM5IDE2Ljc5NiAzLjAxNiAxLjcyNSA2LjMxNiAyLjU4OCA5LjYxNSAyLjU4OHptLTQuMzU1LTczLjU5M2MwLTIuMjc3IDEuNTMxLTMuMzk5IDIuMTg5LTMuNzc2LjM5Ny0uMjI3IDEuMTg4LS41OTEgMi4xODYtLjU5MS42NTUgMCAxLjQuMTU4IDIuMTguNjE2bDQ2LjEzMiAyNy4xMDRjMS45MzggMS4xMzggMi4xNDYgMy4wMDIgMi4xNDYgMy43NSAwIC43NDktLjIwOSAyLjYxMy0yLjE0NyAzLjc1MmwtNDYuMTMgMjcuMTA0Yy0xLjk2NSAxLjE1NC0zLjcwNy40MDEtNC4zNjUuMDI1LS42NTktLjM3Ny0yLjE5LTEuNS0yLjE5LTMuNzc3di01NC4yMDd6Ii8+PC9nPjwvc3ZnPg==" />
+                        <a href="" class="navbar-item" href="">
+                            محتوای آموزشی
+                        </a>
+                        <img class="icon-wh"
+                            src="data:image/svg+xml;base64,PHN2ZyBpZD0iQ2FwYV8xIiBlbmFibGUtYmFja2dyb3VuZD0ibmV3IDAgMCA1MTIuMDA0IDUxMi4wMDQiIGhlaWdodD0iNTEyIiB2aWV3Qm94PSIwIDAgNTEyLjAwNCA1MTIuMDA0IiB3aWR0aD0iNTEyIiB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciPjxnPjxwYXRoIGQ9Im00NzUuNjg0IDE5LjIxMmgtNDM5LjM2NWMtMjAuMDI2IDAtMzYuMzE5IDE2LjI5My0zNi4zMTkgMzYuMzE5djI5Ny45OTVjMCAyMC4wMjYgMTYuMjkzIDM2LjMxOSAzNi4zMTkgMzYuMzE5aDE2NS42NHYyMS43NzdjMCA5LjEzOC00LjM5NyAxNy43NDctMTEuNDc4IDIyLjQ3bC0xOC43NDUgMTIuNTA0aC0xNC45MDNjLTkuNjQ5IDAtMTcuNDk5IDcuODUtMTcuNDk5IDE3LjQ5OXYxMS4xOTdjMCA5LjY0OSA3Ljg1IDE3LjQ5OSAxNy40OTkgMTcuNDk5aDE5OC4zMzdjOS42NDkgMCAxNy40OTktNy44NSAxNy40OTktMTcuNDk5di0xMS4xOTdjMC05LjY0OS03Ljg1LTE3LjQ5OS0xNy40OTktMTcuNDk5aC0xNC45MDNsLTE4Ljc0NS0xMi41MDRjLTcuMDgtNC43MjMtMTEuNDc5LTEzLjMzMi0xMS40NzktMjIuNDd2LTIxLjc3N2gxNjUuNjRjMjAuMDI3IDAgMzYuMzItMTYuMjkzIDM2LjMyLTM2LjMxOXYtMjk3Ljk5NWMuMDAxLTIwLjAyNi0xNi4yOTItMzYuMzE5LTM2LjMxOS0zNi4zMTl6bS0xMjAuNTE0IDQ0Mi4zODVjMS4zNzggMCAyLjQ5OSAxLjEyMSAyLjQ5OSAyLjQ5OXYxMS4xOTdjMCAxLjM3OC0xLjEyMSAyLjQ5OS0yLjQ5OSAyLjQ5OWgtMTk4LjMzNmMtMS4zNzggMC0yLjQ5OS0xLjEyMS0yLjQ5OS0yLjQ5OXYtMTEuMTk3YzAtMS4zNzggMS4xMjEtMi40OTkgMi40OTktMi40OTl6bS00MS45NzItMTUuMDI2LjAzOC4wMjVoLTExNC40NjhsLjAzOC0uMDI1YzExLjM2Ny03LjU4MiAxOC4xNTMtMjAuNjQ2IDE4LjE1My0zNC45NDh2LTIxLjc3N2g3OC4wODV2MjEuNzc3YzAgMTQuMzAxIDYuNzg3IDI3LjM2NiAxOC4xNTQgMzQuOTQ4em0xODMuODA2LTkzLjA0NWMwIDExLjc1Ni05LjU2NCAyMS4zMTktMjEuMzIgMjEuMzE5LTExLjkwOCAwLTQyNy45MTUgMC00MzkuMzY0IDAtMTEuNzU2IDAtMjEuMzE5LTkuNTYzLTIxLjMxOS0yMS4zMTl2LTI5Ny45OTVjMC0xMS43NTYgOS41NjMtMjEuMzE5IDIxLjMxOS0yMS4zMTloNDM5LjM2NGMxMS43NTYgMCAyMS4zMiA5LjU2MyAyMS4zMiAyMS4zMTl6Ii8+PHBhdGggZD0ibTQ2OS4xNjEgNTAuNDA3Yy0xNy42MzcgMC00MDguNjQyIDAtNDI2LjMxOCAwLTYuNDIyIDAtMTEuNjQ2IDUuMjI1LTExLjY0NiAxMS42NDZ2Mjg0Ljk0OWMwIDYuNDIyIDUuMjI1IDExLjY0NiAxMS42NDYgMTEuNjQ2aDQyNi4zMThjNi40MjIgMCAxMS42NDYtNS4yMjUgMTEuNjQ2LTExLjY0NnYtMTI0Ljk3NGMwLTQuMTQzLTMuMzU3LTcuNS03LjUtNy41cy03LjUgMy4zNTctNy41IDcuNXYxMjEuNjIxaC00MTkuNjExdi0yNDEuMTUzaDQxOS42MTF2ODQuNTMyYzAgNC4xNDMgMy4zNTcgNy41IDcuNSA3LjVzNy41LTMuMzU3IDcuNS03LjVjMC01LjQxMiAwLTExOC45MjMgMC0xMjQuOTc1LjAwMS02LjQyMS01LjIyNC0xMS42NDYtMTEuNjQ2LTExLjY0NnptLTM5Mi45MzEgMzcuMDg5aC0zMC4wMzR2LTIyLjA4OWgzMC4wMzR6bTM4OS41NzggMGgtMzc0LjU3OHYtMjIuMDg5aDM3NC41Nzd2MjIuMDg5eiIvPjxwYXRoIGQ9Im0xNTguNDYgMTIwLjk1M2MtOC40My04LjQzLTIyLjA3My04LjQzMi0zMC41MDQtLjAwMWwtNy43NjEgNy43NjEtLjA1MS0uMDUxYy04LjQzMS04LjQzMS0yMi4wNzQtOC40MzItMzAuNTA1LS4wMDEtOC40MDkgOC40MDktOC40MDkgMjIuMDk0IDAgMzAuNTA1bDE1LjMwMyAxNS4zMDJjOC40MjggOC40MyAyMi4wNzUgOC40MzIgMzAuNTA0LjAwMWwyMy4wMTQtMjMuMDEzYzguNDA5LTguNDEgOC40MDktMjIuMDk1IDAtMzAuNTAzem0tMTAuNjA2IDE5Ljg5Ny0yMy4wMTQgMjMuMDEzYy0yLjU2OCAyLjU2OC02LjcyNCAyLjU2Ni05LjI5IDAgMCAwIDAgMCAwLS4wMDFsLTE1LjMwMy0xNS4zMDJjLTIuNTYyLTIuNTYyLTIuNTYyLTYuNzMgMC05LjI5MSAyLjU2NC0yLjU2NyA2LjcyMy0yLjU3MSA5LjI5MSAwbDUuMzU0IDUuMzU0YzIuOTMgMi45MjggNy42NzggMi45MjggMTAuNjA1IDBsMTMuMDY0LTEzLjA2M2MyLjU2Ny0yLjU2NyA2LjcyNC0yLjU2OCA5LjI5LjAwMSAyLjU2MyAyLjU1OSAyLjU2MyA2LjcyNy4wMDMgOS4yODl6Ii8+PHBhdGggZD0ibTE1OC40NiAxOTQuOTc1Yy04LjQzLTguNDMtMjIuMDczLTguNDMyLTMwLjUwNC0uMDAxbC03Ljc2MSA3Ljc2MS0uMDUxLS4wNTFjLTguNDMxLTguNDMxLTIyLjA3NC04LjQzMi0zMC41MDUtLjAwMS04LjQwOSA4LjQwOS04LjQwOSAyMi4wOTQgMCAzMC41MDVsMTUuMzAzIDE1LjMwMmM4LjQyOCA4LjQzIDIyLjA3NSA4LjQzMiAzMC41MDQuMDAxbDIzLjAxNC0yMy4wMTNjOC40MDktOC40MTEgOC40MDktMjIuMDk1IDAtMzAuNTAzem0tMTAuNjA2IDE5Ljg5Ni0yMy4wMTQgMjMuMDEzYy0yLjU2OCAyLjU2OC02LjcyNCAyLjU2Ni05LjI5IDAgMCAwIDAgMCAwLS4wMDFsLTE1LjMwMy0xNS4zMDJjLTIuNTYyLTIuNTYyLTIuNTYyLTYuNzMgMC05LjI5MSAyLjU2NC0yLjU2NyA2LjcyMy0yLjU3MSA5LjI5MSAwbDUuMzU0IDUuMzU0YzIuOTMgMi45MjggNy42NzggMi45MjggMTAuNjA1IDBsMTMuMDY0LTEzLjA2M2MyLjU2Ny0yLjU2NyA2LjcyNC0yLjU2OCA5LjI5LjAwMSAyLjU2MyAyLjU2IDIuNTYzIDYuNzI4LjAwMyA5LjI4OXoiLz48cGF0aCBkPSJtMTI3Ljk1NiAyNjguOTk1LTcuNzYxIDcuNzYxLS4wNTEtLjA1MWMtOC40MzEtOC40MzEtMjIuMDc0LTguNDMyLTMwLjUwNS0uMDAxLTguNDA5IDguNDA5LTguNDA5IDIyLjA5NCAwIDMwLjUwNWwxNS4zMDMgMTUuMzAyYzguNDI5IDguNDMxIDIyLjA3NSA4LjQzMSAzMC41MDUuMDAxbDIzLjAxMy0yMy4wMTNjOC40MDktOC40MSA4LjQwOS0yMi4wOTQgMC0zMC41MDMtOC40MzEtOC40My0yMi4wNzMtOC40MzItMzAuNTA0LS4wMDF6bTE5Ljg5NyAxOS44OTctMjMuMDEzIDIzLjAxNGMtMi41NjggMi41NjgtNi43MjQgMi41NjYtOS4yOSAwIDAgMCAwIDAgMC0uMDAxbC0xNS4zMDMtMTUuMzAyYy0yLjU2Mi0yLjU2Mi0yLjU2Mi02LjczIDAtOS4yOTEgMi41NjQtMi41NjcgNi43MjMtMi41NzEgOS4yOTEgMGw1LjM1NCA1LjM1NGMyLjkzIDIuOTI4IDcuNjc4IDIuOTI4IDEwLjYwNSAwbDEzLjA2NC0xMy4wNjNjMi41NjctMi41NjcgNi43MjQtMi41NjggOS4yOS4wMDEgMi41NyAyLjU2NSAyLjU3IDYuNzIxLjAwMiA5LjI4OHoiLz48cGF0aCBkPSJtNDI1Ljg4IDIxNi4yNzhjMC05LjI4OS03LjU1OC0xNi44NDctMTYuODQ3LTE2Ljg0N2gtMjA2LjkwOGMtOS4yODkgMC0xNi44NDcgNy41NTgtMTYuODQ3IDE2Ljg0N3YxMC45MDZjMCA5LjI4OSA3LjU1OCAxNi44NDcgMTYuODQ3IDE2Ljg0N2gyMDYuOTA4YzkuMjg5IDAgMTYuODQ3LTcuNTU4IDE2Ljg0Ny0xNi44NDd6bS0xNSAxMC45MDdjMCAxLjAxOS0uODI4IDEuODQ3LTEuODQ3IDEuODQ3aC0yMDYuOTA4Yy0xLjAxOSAwLTEuODQ3LS44MjgtMS44NDctMS44NDd2LTEwLjkwNmMwLTEuMDE5LjgyOC0xLjg0NyAxLjg0Ny0xLjg0N2gyMDYuOTA4YzEuMDE5IDAgMS44NDcuODI4IDEuODQ3IDEuODQ3eiIvPjxwYXRoIGQ9Im00MDkuMDMzIDI3My40NTNoLTIwNi45MDhjLTkuMjg5IDAtMTYuODQ3IDcuNTU4LTE2Ljg0NyAxNi44NDd2MTAuOTA2YzAgOS4yODkgNy41NTggMTYuODQ3IDE2Ljg0NyAxNi44NDdoMjA2LjkwOGM5LjI4OSAwIDE2Ljg0Ny03LjU1OCAxNi44NDctMTYuODQ3di0xMC45MDZjMC05LjI4OS03LjU1OC0xNi44NDctMTYuODQ3LTE2Ljg0N3ptMS44NDcgMjcuNzUzYzAgMS4wMTktLjgyOCAxLjg0Ny0xLjg0NyAxLjg0N2gtMjA2LjkwOGMtMS4wMTkgMC0xLjg0Ny0uODI4LTEuODQ3LTEuODQ3di0xMC45MDZjMC0xLjAxOS44MjgtMS44NDcgMS44NDctMS44NDdoMjA2LjkwOGMxLjAxOSAwIDEuODQ3LjgyOCAxLjg0NyAxLjg0N3oiLz48cGF0aCBkPSJtNDI1Ljg4IDE0Mi4yNTdjMC05LjI4OS03LjU1OC0xNi44NDctMTYuODQ3LTE2Ljg0N2gtODUuOTU0Yy00LjE0MyAwLTcuNSAzLjM1Ny03LjUgNy41czMuMzU3IDcuNSA3LjUgNy41aDg1Ljk1NGMxLjAxOSAwIDEuODQ3LjgyOCAxLjg0NyAxLjg0N3YxMC45MDdjMCAxLjAxOC0uODI4IDEuODQ2LTEuODQ3IDEuODQ2aC0yMDYuOTA4Yy0xLjAxOSAwLTEuODQ3LS44MjgtMS44NDctMS44NDZ2LTEwLjkwN2MwLTEuMDE5LjgyOC0xLjg0NyAxLjg0Ny0xLjg0N2g4NS45NTRjNC4xNDMgMCA3LjUtMy4zNTcgNy41LTcuNXMtMy4zNTctNy41LTcuNS03LjVoLTg1Ljk1NGMtOS4yODkgMC0xNi44NDcgNy41NTgtMTYuODQ3IDE2Ljg0N3YxMC45MDdjMCA5LjI4OSA3LjU1OCAxNi44NDYgMTYuODQ3IDE2Ljg0NmgyMDYuOTA4YzkuMjg5IDAgMTYuODQ3LTcuNTU3IDE2Ljg0Ny0xNi44NDZ6Ii8+PC9nPjwvc3ZnPg==" />
+                        <a href="" class="navbar-item" href="">
+                            آزمون
+                        </a>
+                        <img class="icon-wh"
+                            src="data:image/svg+xml;base64,PD94bWwgdmVyc2lvbj0iMS4wIiBlbmNvZGluZz0iaXNvLTg4NTktMSI/Pg0KPCEtLSBHZW5lcmF0b3I6IEFkb2JlIElsbHVzdHJhdG9yIDE5LjAuMCwgU1ZHIEV4cG9ydCBQbHVnLUluIC4gU1ZHIFZlcnNpb246IDYuMDAgQnVpbGQgMCkgIC0tPg0KPHN2ZyB2ZXJzaW9uPSIxLjEiIGlkPSJDYXBhXzEiIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyIgeG1sbnM6eGxpbms9Imh0dHA6Ly93d3cudzMub3JnLzE5OTkveGxpbmsiIHg9IjBweCIgeT0iMHB4Ig0KCSB2aWV3Qm94PSIwIDAgNTEyIDUxMiIgc3R5bGU9ImVuYWJsZS1iYWNrZ3JvdW5kOm5ldyAwIDAgNTEyIDUxMjsiIHhtbDpzcGFjZT0icHJlc2VydmUiPg0KPGc+DQoJPGc+DQoJCTxwYXRoIGQ9Ik0zNDYsMzE5Yy01LjUyMiwwLTEwLDQuNDc3LTEwLDEwdjY5YzAsMjcuNTctMjIuNDMsNTAtNTAsNTBIMTc4LjAzMmMtNS41MjEsMC05Ljk5Niw0LjQ3My0xMCw5Ljk5M2wtMC4wMTQsMTkuODgyDQoJCQlsLTIzLjg2OC0yMy44NjdjLTEuNTQ1LTMuNTQ3LTUuMDgxLTYuMDA4LTkuMTcxLTYuMDA4SDcwYy0yNy41NywwLTUwLTIyLjQzLTUwLTUwVjI0NGMwLTI3LjU3LDIyLjQzLTUwLDUwLTUwaDEwMQ0KCQkJYzUuNTIyLDAsMTAtNC40NzcsMTAtMTBzLTQuNDc4LTEwLTEwLTEwSDcwYy0zOC41OTgsMC03MCwzMS40MDItNzAsNzB2MTU0YzAsMzguNTk4LDMxLjQwMiw3MCw3MCw3MGg1OS44NThsNDEuMDcxLDQxLjA3MQ0KCQkJYzEuOTEzLDEuOTEzLDQuNDcsMi45MjksNy4wNzMsMi45MjljMS4yODcsMCwyLjU4Ni0wLjI0OSwzLjgyMS0wLjc2YzMuNzM3LTEuNTQ2LDYuMTc0LTUuMTksNi4xNzctOS4yMzNMMTg4LjAyNCw0NjhIMjg2DQoJCQljMzguNTk4LDAsNzAtMzEuNDAyLDcwLTcwdi02OUMzNTYsMzIzLjQ3NywzNTEuNTIyLDMxOSwzNDYsMzE5eiIvPg0KCTwvZz4NCjwvZz4NCjxnPg0KCTxnPg0KCQk8cGF0aCBkPSJNMzY2LjY1NSwwaC0yNS4zMDlDMjYxLjIwMiwwLDE5Niw2NS4yMDIsMTk2LDE0NS4zNDZzNjUuMjAyLDE0NS4zNDUsMTQ1LjM0NSwxNDUuMzQ1aDI1LjMwOQ0KCQkJYzEyLjUwOSwwLDI0Ljg5LTEuNTg5LDM2Ljg5LTQuNzI5bDM3LjM4NywzNy4zNjZjMS45MTMsMS45MTEsNC40NjksMi45MjcsNy4wNzEsMi45MjdjMS4yODksMCwyLjU4OS0wLjI0OSwzLjgyNi0wLjc2Mg0KCQkJYzMuNzM2LTEuNTQ4LDYuMTcyLTUuMTk0LDYuMTcyLTkuMjM4di01Ny44NTZjMTUuODI5LTEyLjgxOSwyOC45NzgtMjkuMDEyLDM4LjIwNi00Ny4xMDINCgkJCUM1MDYuNjg3LDE5MC43NTEsNTEyLDE2OC41NjIsNTEyLDE0NS4zNDZDNTEyLDY1LjIwMiw0NDYuNzk4LDAsMzY2LjY1NSwweiBNNDQxLjk4MywyNDUuNTM1DQoJCQljLTIuNTA3LDEuODg5LTMuOTgzLDQuODQ3LTMuOTgzLDcuOTg4djM4LjZsLTI0LjQ3MS0yNC40NThjLTEuOTA0LTEuOTAyLTQuNDU4LTIuOTI3LTcuMDctMi45MjdjLTAuOTgsMC0xLjk3LDAuMTQ1LTIuOTM2LDAuNDQyDQoJCQljLTExLjkwMywzLjY1OC0yNC4zMDcsNS41MTItMzYuODY4LDUuNTEyaC0yNS4zMDljLTY5LjExNywwLTEyNS4zNDYtNTYuMjMtMTI1LjM0Ni0xMjUuMzQ2UzI3Mi4yMywyMCwzNDEuMzQ2LDIwaDI1LjMwOQ0KCQkJQzQzNS43NzEsMjAsNDkyLDc2LjIzLDQ5MiwxNDUuMzQ2QzQ5MiwxODUuMDc3LDQ3My43NywyMjEuNTk1LDQ0MS45ODMsMjQ1LjUzNXoiLz4NCgk8L2c+DQo8L2c+DQo8Zz4NCgk8Zz4NCgkJPHBhdGggZD0iTTM5OS4wMzMsMTA5LjQyMWMtMS40NDMtMjAuOTM1LTE4LjMxOS0zNy44MTEtMzkuMjU1LTM5LjI1NGMtMTEuODY4LTAuODE1LTIzLjE5NCwzLjE4OC0zMS44NjMsMTEuMjgxDQoJCQljLTguNTUsNy45ODEtMTMuNDUzLDE5LjI2My0xMy40NTMsMzAuOTU0YzAsNS41MjMsNC40NzgsMTAsMTAsMTBjNS41MjIsMCwxMC00LjQ3NywxMC0xMGMwLTYuMjU5LDIuNTIyLTEyLjA2LDcuMS0xNi4zMzMNCgkJCWM0LjU3NC00LjI2OSwxMC41NTItNi4zODIsMTYuODQyLTUuOTQ4YzExLjAyOCwwLjc2LDE5LjkxNyw5LjY0OSwyMC42NzcsMjAuNjc2YzAuNzY4LDExLjEzNy02LjUzOSwyMC45NzktMTcuMzczLDIzLjQwMw0KCQkJYy04Ljc3OCwxLjk2NC0xNC45MDgsOS41OTItMTQuOTA4LDE4LjU0OXYyNC4wMjVjMCw1LjUyMyw0LjQ3OCwxMCwxMCwxMGM1LjUyMywwLDEwLTQuNDc3LDkuOTk5LTEwdi0yMy4yMjYNCgkJCUMzODYuOTQ5LDE0OC42OCw0MDAuNDY4LDEzMC4yNDIsMzk5LjAzMywxMDkuNDIxeiIvPg0KCTwvZz4NCjwvZz4NCjxnPg0KCTxnPg0KCQk8cGF0aCBkPSJNMzYzLjg3LDIwOS4yNmMtMS44Ni0xLjg2LTQuNDQtMi45My03LjA3LTIuOTNzLTUuMjEsMS4wNy03LjA3LDIuOTNjLTEuODYsMS44Ni0yLjkzLDQuNDQtMi45Myw3LjA3DQoJCQljMCwyLjY0LDEuMDcxLDUuMjIsMi45Myw3LjA4YzEuODYsMS44Niw0LjQ0LDIuOTIsNy4wNywyLjkyczUuMjEtMS4wNiw3LjA3LTIuOTJjMS44Ni0xLjg3LDIuOTMtNC40NCwyLjkzLTcuMDgNCgkJCUMzNjYuOCwyMTMuNywzNjUuNzI5LDIxMS4xMiwzNjMuODcsMjA5LjI2eiIvPg0KCTwvZz4NCjwvZz4NCjxnPg0KCTxnPg0KCQk8cGF0aCBkPSJNMjc1LDMxMEg2NGMtNS41MjIsMC0xMCw0LjQ3Ny0xMCwxMHM0LjQ3OCwxMCwxMCwxMGgyMTFjNS41MjMsMCwxMC00LjQ3NywxMC0xMFMyODAuNTIyLDMxMCwyNzUsMzEweiIvPg0KCTwvZz4NCjwvZz4NCjxnPg0KCTxnPg0KCQk8cGF0aCBkPSJNMjgyLjA2OSwzNjguOTNDMjgwLjIxLDM2Ny4wNywyNzcuNjMsMzY2LDI3NSwzNjZzLTUuMjEsMS4wNy03LjA3LDIuOTNjLTEuODYxLDEuODYtMi45Myw0LjQ0LTIuOTMsNy4wNw0KCQkJczEuMDcsNS4yMSwyLjkzLDcuMDdjMS44NiwxLjg2LDQuNDQsMi45Myw3LjA3LDIuOTNzNS4yMS0xLjA3LDcuMDY5LTIuOTNjMS44NjEtMS44NiwyLjkzMS00LjQzLDIuOTMxLTcuMDcNCgkJCUMyODUsMzczLjM3LDI4My45MjksMzcwLjc5LDI4Mi4wNjksMzY4LjkzeiIvPg0KCTwvZz4NCjwvZz4NCjxnPg0KCTxnPg0KCQk8cGF0aCBkPSJNMjM1LjY2NywzNjZINjRjLTUuNTIyLDAtMTAsNC40NzctMTAsMTBzNC40NzgsMTAsMTAsMTBoMTcxLjY2N2M1LjUyMywwLDEwLTQuNDc3LDEwLTEwUzI0MS4xODksMzY2LDIzNS42NjcsMzY2eiIvPg0KCTwvZz4NCjwvZz4NCjxnPg0KCTxnPg0KCQk8cGF0aCBkPSJNMjEwLDI1NEg2NGMtNS41MjIsMC0xMCw0LjQ3Ny0xMCwxMHM0LjQ3OCwxMCwxMCwxMGgxNDZjNS41MjMsMCwxMC00LjQ3NywxMC0xMFMyMTUuNTIyLDI1NCwyMTAsMjU0eiIvPg0KCTwvZz4NCjwvZz4NCjxnPg0KPC9nPg0KPGc+DQo8L2c+DQo8Zz4NCjwvZz4NCjxnPg0KPC9nPg0KPGc+DQo8L2c+DQo8Zz4NCjwvZz4NCjxnPg0KPC9nPg0KPGc+DQo8L2c+DQo8Zz4NCjwvZz4NCjxnPg0KPC9nPg0KPGc+DQo8L2c+DQo8Zz4NCjwvZz4NCjxnPg0KPC9nPg0KPGc+DQo8L2c+DQo8Zz4NCjwvZz4NCjwvc3ZnPg0K" />
+                        <a href="" class="navbar-item ">
+                            پرسش و پاسخ
+                        </a>
+                        <img class="icon-wh"
+                            src="data:image/svg+xml;base64,PHN2ZyBoZWlnaHQ9IjUxMiIgdmlld0JveD0iMCAwIDY0IDY0IiB3aWR0aD0iNTEyIiB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciPjxwYXRoIGQ9Im02MSAxM2gtM3YtM2ExIDEgMCAwIDAgLTEtMWgtMjFhNC45OTQgNC45OTQgMCAwIDAgLTQgMi4wMyA0Ljk5NCA0Ljk5NCAwIDAgMCAtNC0yLjAzaC0yMWExIDEgMCAwIDAgLTEgMXYzaC0zYTEgMSAwIDAgMCAtMSAxdjQwYTEgMSAwIDAgMCAxIDFoNThhMSAxIDAgMCAwIDEtMXYtNDBhMSAxIDAgMCAwIC0xLTF6bS01NyA0MHYtMzhoMnYzNWExIDEgMCAwIDAgMSAxaDIxYTMuMDEgMy4wMSAwIDAgMSAyLjgyIDJ6bTI3LTIuOTdhNC45MjQgNC45MjQgMCAwIDAgLTMtMS4wM2gtMjB2LTM4aDIwYTMuMDA5IDMuMDA5IDAgMCAxIDMgM3ptMSAxLS4wMy0uMDNoLjA2em0xLTM3LjAzYTMuMDA5IDMuMDA5IDAgMCAxIDMtM2gyMHYzOGgtMjBhNC45MjQgNC45MjQgMCAwIDAgLTMgMS4wM3ptMjcgMzloLTI2LjgyYTMuMDEgMy4wMSAwIDAgMSAyLjgyLTJoMjFhMSAxIDAgMCAwIDEtMXYtMzVoMnoiLz48cGF0aCBkPSJtNDcgMTNhNCA0IDAgMCAwIC00IDR2MjRhMSAxIDAgMCAwIC4xNC41MWwzIDVhMSAxIDAgMCAwIDEuNzIgMGwzLTVhMSAxIDAgMCAwIC4xNC0uNTF2LTI0YTQgNCAwIDAgMCAtNC00em0wIDMxLjA2LTEuNjUtMi43NiAxLjY1LTEuMSAxLjY1IDEuMXptMi00LjkzLTEtLjY3di0xMy40NmgtMnYxMy40NmwtMSAuNjd2LTE2LjEzaDR6bTAtMTguMTNoLTR2LTJoNHptLTQtNGEyIDIgMCAwIDEgNCAweiIvPjxwYXRoIGQ9Im0xMCAxNGgxOXYyaC0xOXoiLz48cGF0aCBkPSJtMTAgMThoMTF2MmgtMTF6Ii8+PHBhdGggZD0ibTIzIDE4aDZ2MmgtNnoiLz48cGF0aCBkPSJtMTAgMjJoNHYyaC00eiIvPjxwYXRoIGQ9Im0xNiAyMmgxM3YyaC0xM3oiLz48L3N2Zz4=" />
+
+                        <a href="" class="navbar-item" href="">
+                            تکالیف
+
+                        </a>
+                    </div>
+                </div>
+            </nav>
+        </div>
+
+    </section>
+    <div class="mt-2"></div>
+    <!--------------------------------  Start body  ------------------------------->
+    <section id="DetailConversation">
+        <div class="container mt-5 notification  has-text-dark px-4 box">
+            <!----  Question  ---->
+            <article class="media py-3">
+                <figure class="media-left ml-3">
+                    <p class="image  is-64x64">
+                        <img src="../Image/کتاب علوم.jpg">
+                    </p>
+                </figure>
+                <div class="media-content ">
+                    <div class="content ">
+                        <h1 class="is-size-6 style-p"> <strong> <a href="">رسانا و نارسانای الکتریکی چه
+                                    هستند؟</a></strong></h1>
+                        <p class="is-size-7-mobile">
+                            رسانا و نارسانای الکتریکی را به صورت کامل با مثال توضیح دهید.
+                        </p>
+                    </div>
+                    <nav class="level is-mobile ">
+                        <div class="level-left">
+                            <span class="icon-text has-text-grey level-item ml-3 is-size-7">
+                                <span class="icon">
+                                    <i class="fas fa-user"></i>
+                                </span>
+                                <span>زهرا خسروی</span>
+                            </span>
+                            <span class="icon-text has-text-grey level-item ml-3 is-size-7">
+                                <span class="icon">
+                                    <i class="fas fa-calendar-alt"></i>
+                                </span>
+                                <span>1400/03/02</span>
+                            </span>
+                        </div>
+                    </nav>
+                </div>
+            </article>
+            <!----  Response  ---->
+            <article class="media py-3">
+                <figure class="media-left ml-3">
+                    <p class="image  is-48x48">
+                        <img class="is-rounded" src="../Image/photo-user.png">
+                    </p>
+                </figure>
+                <div class="media-content ">
+                    <div class="content ">
+                        <nav class="level is-mobile ">
+                            <div class="level-left">
+                                <span class="icon-text has-text-grey level-item ml-3 is-size-7">
+                                    <span class="icon">
+                                        <i class="fas fa-user"></i>
+                                    </span>
+                                    <span>محیا موسوی</span>
+                                </span>
+                                <span class="icon-text has-text-grey level-item ml-3 is-size-7">
+                                    <span class="icon">
+                                        <i class="fas fa-calendar-alt"></i>
+                                    </span>
+                                    <span>1400/03/02</span>
+                                </span>
+                            </div>
+                        </nav>
+                        <p class="is-size-7-mobile">
+                            باسلام
+                            رسانای الکتریکی:جسم یا چیزی که بتواند الکتریسیته را منتقل کند.مثل فلزات؛
+                            نارسانای الکتریکی:جسم یا چیزی که نمی‌تواند الکتریسیته را منتقل کند.مثل پلاستیک؛
+                            نکته:فلزات رسانا و نافلزات نارسانا هستند و فقط کربن که نافلز است،رسانایی بسیار کمی دارد.
+                            موفق باشی:)
+                        </p>
+                    </div>
+
+                </div>
+            </article>
+            <article class="media py-3">
+                <figure class="media-left ml-3">
+                    <p class="image  is-48x48">
+                        <img class="is-rounded" src="../Image/photo-user-man.png">
+                    </p>
+                </figure>
+                <div class="media-content ">
+                    <div class="content ">
+                        <nav class="level is-mobile ">
+                            <div class="level-left">
+                                <span class="icon-text has-text-grey level-item ml-3 is-size-7">
+                                    <span class="icon">
+                                        <i class="fas fa-user"></i>
+                                    </span>
+                                    <span>محمد اصلانی </span>
+                                </span>
+                                <span class="icon-text has-text-grey level-item ml-3 is-size-7">
+                                    <span class="icon">
+                                        <i class="fas fa-calendar-alt"></i>
+                                    </span>
+                                    <span>1400/03/02</span>
+                                </span>
+                            </div>
+                        </nav>
+                        <p class="is-size-7-mobile">
+                            رسانای الکتریکی به جسم ویا ماده ای گفته میشه که انرژی الکتریسیته رو به سرعت از خودش عبور
+                            میده مثل:
+                            فلزات نقره مس آهن الومینیوم طلا و...
+                            نارسانای الکتریکی به موادی گفته میشه که الکتریسیته رو از خودشون عبور نمیدن یا این عبور سرعت
+                            بسیار پایین و گیرایش ناچیزی داره.
+                            مثل:
+                            پارچه چوب سنگ پلاستیک لاستیک کاغذ
+                        </p>
+                    </div>
+
+                </div>
+            </article>
+            <article class="media py-3">
+                <figure class="media-left ml-3">
+                    <p class="image  is-48x48">
+                        <img class="is-rounded" src="../Image/photo-user.png">
+                    </p>
+                </figure>
+                <div class="media-content ">
+                    <div class="content ">
+                        <nav class="level is-mobile ">
+                            <div class="level-left">
+                                <span class="icon-text has-text-grey level-item ml-3 is-size-7">
+                                    <span class="icon">
+                                        <i class="fas fa-user"></i>
+                                    </span>
+                                    <span>صبا اکبری</span>
+                                </span>
+                                <span class="icon-text has-text-grey level-item ml-3 is-size-7">
+                                    <span class="icon">
+                                        <i class="fas fa-calendar-alt"></i>
+                                    </span>
+                                    <span>1400/03/02</span>
+                                </span>
+                            </div>
+                        </nav>
+                        <p class="is-size-7-mobile">
+                            سلام تو تعریف ساده میشه گف جسمی که جریان الکتریکی رو از خودش عبور بده میشه رسانا چون الکترون
+                            ازاد داره باعث این جریان میشه
+                            جسمیم که توانایی عبور جریان الکتریکی رو نداره و در واقع داری الکترون ازاد نیس میشه نارسانا
+                        </p>
+                    </div>
+
+                </div>
+            </article>
+        </div>
+    </section>
+    <!----   Type  ---->
+    <section id="Conversation">
+        <div class="container mt-5 notification  has-text-dark px-4 box">
+            <div class="field">
+                <div class="control">
+                    <textarea class="textarea is-info" placeholder="پاسخ خود را تایپ کنید "></textarea>
+                </div>
+            </div>
+            <button class="button is-success">ثبت پاسخ</button>
+        </div>
+    </section>
+    <!------------------------------  Start Footer  ---------------------------->
+    <footer class="footer mt-6">
+        <div class="content  container my-4">
+            <div class="columns" id="footer">
+                <div class="column ">
+                    <h2 class="is-size-6"> ~ درباره ما</h2>
+
+                    <p class="has-text-warning-dark is-size-7-touch">
+                        <strong class="has-text-warning-dark">به وبسایت من خوش آمدید.</strong> <br>
+                        هدف از راه اندازی این صفحه اشتراک تجربیات آموزشی با شماست، امید که با ارائه نظرات خود ما را در
+                        رسیدن به
+                        اهدافمان یاری نمایید.
+                    </p>
+                </div>
+                <div class="column">
+                    <h2 class="is-size-6">~ تماس با ما</h2>
+                    <p class="has-text-warning-dark is-size-7-touch">
+                        <span class="icon-text has-text-warning-dark">
+                            <span class="icon">
+                                <i class="fas fa-phone"></i>
+                            </span>
+                            <span>09132252521</span>
+                        </span>
+                        <br>
+                        <span class="icon-text has-text-warning-dark">
+                            <span class="icon">
+                                <i class="fas fa-envelope"></i>
+                            </span>
+                            <span><a class="has-text-warning-dark" href="">teacher4@gmail.com</a> </span>
+                        </span>
+                    </p>
+                </div>
+            </div>
+        </div>
+        <div class="main-footer has-text-centered ">
+            <p class="has-text-white is-size-7">تمامی حقوق مادی و معنوی این وب سایت محفوظ است.
+            </p>
+        </div>
+    </footer>
+    <!---------------------------  Start Modal Log in  ------------------------->
+    <div class="modal" id="login">
+        <div class="modal-background "></div>
+        <div class="modal-content has-background-warning">
+            <div class="tabs is-centered is-boxed">
+                <button class="delete mt-2 mr-2" id="dellogin"></button>
+                <ul class="ml-5">
+                    <li class="is-active has-text-info" data-target="signup">
+                        <a>
+                            <span class=" has-text-white">ثبت نام</span>
+                        </a>
+                    </li>
+                    <li class="" data-target="login">
+                        <a>
+                            <span class=" has-text-white">ورود</span>
+                        </a>
+                    </li>
+                </ul>
+            </div>
+            <div id="tab-content">
+                <div class="is-centered" id="signup">
+                    <div class="field">
+                        <div class="control  has-icons-right">
+                            <input class="input is-small has-text-centered" type="text"
+                                placeholder="نام (فقط به فارسی)">
+                            <span class="icon is-small is-right">
+                                <i class="fas fa-user"></i>
+                            </span>
+                        </div>
+                    </div>
+                    <div class="field">
+                        <div class="control  has-icons-right">
+                            <input class="input is-small has-text-centered" type="email" placeholder="ایمیل">
+                            <span class="icon is-small is-right">
+                                <i class="fas fa-check"></i>
+                            </span>
+                        </div>
+                    </div>
+                    <div class="field">
+                        <div class="control  has-icons-right">
+                            <input class="input is-small has-text-centered" type="password" placeholder="گذر واژه">
+                            <span class="icon is-small is-right">
+                                <i class="fas fa-lock"></i>
+                            </span>
+                        </div>
+                    </div>
+                    <button class="button is-warning is-small is-fullwidth">ثبت نام</button>
+                </div>
+                <div id="login" class="is-hidden">
+                    <div class="is-centered">
+                        <div class="field">
+                            <div class="control  has-icons-right">
+                                <input class="input is-small has-text-centered" type="text" placeholder="نام یا ایمیل">
+                                <span class="icon is-small is-right">
+                                    <i class="fas fa-user"></i>
+                                </span>
+                            </div>
+                        </div>
+                        <div class="field">
+                            <div class="control  has-icons-right">
+                                <input class="input is-small has-text-centered" type="password" placeholder="گذر واژه">
+                                <span class="icon is-small is-right">
+                                    <i class="fas fa-lock"></i>
+                                </span>
+                            </div>
+                        </div>
+                        <button class="button is-warning is-small is-fullwidth">ورود</button>
+                    </div>
+                    <div class="mx-5">
+                        <div class="columns is-mobile pt-1">
+                            <div class="column is-7 pr-4">
+                                <label class="checkbox">
+                                    <input type="checkbox">
+                                    <span class=" has-text-white is-size-7 "> مرا به خاطر بسپار</span>
+                                </label>
+                            </div>
+                            <div class="column is-5">
+                                <a href="" class=" has-text-white is-size-7 "> بازیابی رمز عبور</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!------------------------------  Start Script  ---------------------------->
+    <script src="https://code.jquery.com/jquery-3.6.0.js"
+        integrity="sha256-H+K7U5CnXl1h5ywQfKtSj8PCmoN9aaq30gDh27Xc0jk=" crossorigin="anonymous"></script>
+    <script src="../Js/Style.js"></script>
+</body>
+
+</html>

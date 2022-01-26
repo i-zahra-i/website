@@ -1,0 +1,47 @@
+﻿@model IEnumerable<Teacher4.DataLayer.Entities.Course.CourseGroup>
+<section class="mainMenu" style="direction: ltr !important;">
+    <div class="container">
+        <div class="header-main">
+            <div class="logo"><a href="/"> <img src="/Image/logo-text.png" alt="تصویر لوگو"></a></div>
+
+            <div class="open-nav-menu">
+                <span></span>
+            </div>
+            <div class="menu-overlay">
+            </div>
+            <!-- navigation menu start -->
+            <nav class="nav-menu">
+                <div class="close-nav-menu">
+                    <img src="/Image/close.svg" alt="close">
+                </div>
+
+                <ul class="menu" style="direction: rtl !important;">
+                    @foreach (var group in Model.Where(g => g.ParentId == null))
+                    {
+                        @if (Model.Any(g => g.ParentId == group.GroupId))
+                        {
+                            <li class="menu-item menu-item-has-children">
+                                <a href="/Course?selectedGroups=@group.GroupId" data-toggle="sub-menu">@group.GroupTitle <i class="plus"></i></a>
+                                <ul class="sub-menu">
+                                    @foreach (var sub in Model.Where(g => g.ParentId == group.GroupId))
+                                    {
+                                        <li class="menu-item"><a href="/Course?selectedGroups=@sub.GroupId">@sub.GroupTitle</a></li>
+                                    }
+                                </ul>
+                            </li>
+                        }
+                        else
+                        {
+                            <li class="menu-item">
+                                <a href="/Course?selectedGroups=@group.GroupId">@group.GroupTitle</a>
+                            </li>
+                        }
+                    }
+                </ul>
+            </nav>
+            <!-- navigation menu end -->
+        </div>
+    </div>
+</section>
+<div class="my5"><br></div>
+<div class="my5"><br></div>

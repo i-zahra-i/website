@@ -1,0 +1,43 @@
+﻿@page "{id}"
+@using Teacher4.Core.Convertors
+@model Teacher4.Web.Pages.Admin.Users.DeleteUserModel
+@{
+    ViewData["Title"] = "حذف کاربر";
+}
+
+<div class="col-md-12">
+    <div class="panel panel-default">
+        <div class="panel-heading">
+            حذف کاربر
+        </div>
+        <div class="panel-body">
+            <form method="post">
+                <input type="hidden" name="UserId" value="@ViewData["UserId"].ToString()" />
+
+                <dl class="dl-horizontal">
+                    <dt>نام کاربری : </dt>
+                    <dd>@Model.InformationUserViewModel.UserName</dd>
+                    <dt>ایمیل : </dt>
+                    <dd>@Model.InformationUserViewModel.Email</dd>
+                    <dt>موجودی کیف پول  : </dt>
+                    <dd>@Model.InformationUserViewModel.Wallet</dd>
+                    <dt>تاریخ عضویت : </dt>
+                    <dd>@Model.InformationUserViewModel.RegisterDate.ToShamsi()</dd>
+                    <dt></dt>
+                    <br />
+                    <dd>
+
+                        <input type="submit" value="حذف کن" class="btn btn-outline btn-danger" />
+                        <a asp-page="Index" class="btn btn-outline btn-info">انصراف</a>
+                    </dd>
+                </dl>
+            </form>
+        </div>
+        <!-- /.panel-body -->
+    </div>
+    <!-- /.panel -->
+</div>
+
+
+
+

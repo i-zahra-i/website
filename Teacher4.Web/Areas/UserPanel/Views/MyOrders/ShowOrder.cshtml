@@ -1,0 +1,116 @@
+﻿@using Teacher4.Core.Services.Interfaces
+@model Teacher4.DataLayer.Entities.Order.Order
+
+@inject IUserService _UserService
+@{
+    ViewData["Title"] = "ShowOrder";
+    Layout = "~/Views/Shared/_Account.cshtml";
+    int sumOrder = Model.OrderDetails.Sum(od => od.Price * od.Count);
+}
+
+<section>
+    <div class="container">
+        <div class="columns mt-4">
+            <!-------------- Side Right -------------->
+
+            <partial name="_SideBar" />
+
+
+            <!--------------- Side Left -------------->
+            <div class="column" id="Side-left">
+                <div class="columns flex">
+                    <!-- bill -->
+                    <div class="column is-12 ">
+                        <div class="message is-info ">
+                            <div class="message-header">
+                                <span> فاکتور شما</span>
+                            </div>
+                            <div class="message-body px-4 pb-3 side-detail box">
+                                <div class="table-container pl-5">
+                                    @if (ViewBag.finaly == true)
+                                    {
+                                        <div class="notification is-success is-light">
+                                            فاکتور با موفقیت پرداخت گردید
+                                        </div>
+                                    }
+
+                                    <table class="table table  is-bordered is-striped is-narrow is-hoverable is-fullwidth mt-2">
+                                        <thead>
+                                            <tr class="is-size-7-mobile">
+                                                <th class="has-text-success">
+                                                    <abbr title="Position">
+                                                        <span>نام دوره </span>
+                                                    </abbr>
+                                                </th>
+                                                <th class="has-text-success">
+                                                    <abbr title="Played">
+                                                        <span>تعداد </span>
+                                                    </abbr>
+                                                </th>
+                                                <th class="has-text-success">
+                                                    <abbr title="Won">
+                                                        <span>قیمت</span>
+                                                    </abbr>
+                                                </th>
+                                                <th class="has-text-success">
+                                                    <abbr title="Drawn">
+                                                        <span>جمع</span>
+                                                    </abbr>
+                                                </th>
+                                            </tr>
+                                        </thead>
+                                        <tbody>
+                                            @foreach (var item in Model.OrderDetails)
+                                            {
+                                                <tr>
+                                                    <td>
+                                                        <a href="/ShowCourse/@item.Course" target="_blank">@item.Course.CourseTitle</a>
+                                                    </td>
+                                                    <td>
+                                                        @item.Count
+                                                    </td>
+                                                    <td>@item.Price</td>
+                                                    <td>
+                                                        @((item.Count * item.Price).ToString("#,0"))
+                                                    </td>
+                                                </tr>
+                                            }
+                                        </tbody>
+                                    </table>
+
+                                    <article class="message is-warning " style="border-right: solid 4px #ffdd57;">
+                                        <div class="message-body">
+                                            <strong>  جمع کل : </strong><span> @sumOrder</span>
+                                        </div>
+                                    </article>
+                                </div>
+                                @if (!Model.IsFinaly)
+                                {
+
+                                    @if (_UserService.BalanceUserWallet(User.Identity.Name) >= sumOrder)
+                                    {
+                                        <a class="button is-success  is-fullwidth" href="/UserPanel/MyOrders/FinalyOrder/@Model.OrderId">تایید فاکتور</a>
+                                    }
+                                    else
+                                    {
+
+                                        <button class="button is-success  is-fullwidth" title="Disabled button" disabled>تایید فاکتور</button>
+
+
+                                        <div class="notification is-danger is-light">
+                                            موجودی کیف پول شما کافی نمی باشد ، لطفا از طریق این
+                                            <a href="/UserPanel/Wallet" class="alert-link"> <strong>لینک</strong> </a>
+                                            اقدام به شارژ حساب کنید
+                                        </div>
+                                    }
+                                }
+                                </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    </div>
+</section>
+

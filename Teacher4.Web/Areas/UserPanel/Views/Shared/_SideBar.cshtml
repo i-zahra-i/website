@@ -1,0 +1,40 @@
+﻿@using Teacher4.Core.DTOs
+@using Teacher4.Core.Services.Interfaces
+@inject IUserService _UserService
+
+@{
+    SideBarUserPanelViewModel user = _UserService.GetSideBarUserPanelData(User.Identity.Name);
+}
+<aside class="column is-3 ">
+    <div class="columns flex">
+        <!--- profile --->
+        <div class="column is-12">
+            <div class="notification has-background-light box px-4 pb-3 side-detail">
+               <a href="#">
+                   <figure class="image is-128x128">
+                    <img class="mr-6" src="/UserAvatar/@user.ImageName" alt="تصویر پروفایل">
+                   </figure>
+                </a>
+            </div>
+        </div>
+        <!--- manage panel --->
+        <div class="column is-12">
+            <div class="message is-info ">
+                <div class="message-header">
+                    <span> میزکار</span>
+                </div>
+                <div class="message-body box">
+                    <div class="content">
+                        <ul class="style-p">
+                            <li><a href="/UserPanel">مشاهده حساب کاربری</a></li>
+                            <li><a href="/UserPanel/ChangePassword">تغییر رمز عبور</a></li>
+                            <li><a href="/UserPanel/Wallet">کیف پول شما</a></li>
+                            <li><a href="/UserPanel/MyOrders">فاکتورها</a></li>
+                            <li><a href="/Logout">خروج از حساب کاربری</a></li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</aside>

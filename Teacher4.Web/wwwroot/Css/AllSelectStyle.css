@@ -1,0 +1,219 @@
+/*-----------------------------------------------------------------------------*/
+* {
+    margin: 0;
+    padding: 0;
+    text-decoration: none !important;
+    box-sizing: border-box !important;
+}
+
+body {
+    direction: rtl;
+}
+
+.my5 {
+    width: 100%;
+    height: 2px;
+    margin-bottom: 30px;
+}
+/*   Start Top Menu   */
+.main-menu, .main-footer {
+    width: 100%;
+    background: #2c3e50;
+    float: right;
+}
+
+.main-menu {
+    direction: ltr !important;
+}
+
+.navbar-menu {
+    direction: rtl !important;
+}
+
+.navbar-dropdown a.navbar-item {
+    padding-right: 1rem !important;
+    z-index: 99999;
+}
+
+.dropdown-menu, a.dropdown-item, button.dropdown-item {
+    padding-left: 1rem !important;
+    padding-right: 1rem !important;
+    z-index: 99999;
+}
+
+.main-menu .navbar, .navbar-dropdown {
+    background: #2c3e50;
+}
+
+    .main-menu .navbar .navbar-item, .main-menu .level-item a, .dropdown-trigger .button, .dropdown-content {
+        border: none;
+        font-weight: bold;
+        color: #fff;
+        background: #2c3e50;
+        box-shadow: none !important;
+    }
+
+        .main-menu .navbar .navbar-item:hover, .main-menu .navbar .navbar-link:hover, .main-menu .navbar-brand a:hover, .main-menu .level-item a:hover, .main-menu .dropdown-item:hover, .level-item .dropdown .dropdown-trigger .button:hover, #navbarExampleTransparentExample .navbar-item:hover {
+            background: #fffa65 !important;
+            color: #2c3e50 !important;
+            border-radius: 4px;
+        }
+
+.navbar-item .has-dropdown .navbar-dropdown {
+    display: none;
+}
+
+.is-active .navbar-dropdown {
+    display: block;
+}
+
+.main-menu .navbar a {
+    color: #fff;
+    font-size: 15px;
+}
+
+.level-right .dropdown-content {
+    direction: rtl !important;
+}
+
+.icon-wh {
+    width: 64px !important;
+    height: 56px !important;
+}
+
+.detile .navbar .navbar-menu {
+    margin-right: 1.5rem !important;
+}
+
+#navbarExampleTransparentExample .navbar-item {
+    padding-left: 0rem !important;
+    margin-left: 5.5rem !important;
+    font-weight: bold;
+    padding: 5px 5px 5px 5px !important
+}
+
+.dropdown-menu {
+    display: none;
+    left: -62px !important;
+}
+.level.is-mobile .level-item:not(:last-child) {
+    margin-bottom: 0;
+    margin-right: 0rem;
+}
+/*   End  Top  Menu   */
+/*------------------------------  Start Body  ---------------------------------*/
+
+.flex-container {
+    display: flex;
+    flex-wrap: wrap;
+    margin-right:90px;
+}
+
+    .flex-container > div {
+        width: 265px;
+        margin: 11px 11px;
+        border: 1px solid #accde9;
+        border-radius: 3px;
+    }
+
+.card:hover {
+    box-shadow: inset 0 3px 0px #6f99e9, 0 2px 20px rgb(98, 125, 175)
+}
+/*--------------      For Mobil    ------------------*/
+@media only screen and (max-width:992px) {
+    .flex-container {
+        margin-right: 0px;
+    }
+    .card {
+        margin: 10px auto !important;
+    }
+
+    .icon-wh {
+        display: none;
+    }
+
+    .box {
+        padding: 0.25rem;
+    }
+
+    .style-p, .style-pm div {
+        padding: 0px 9px !important;
+    }
+
+    .container {
+        margin-left: 8px;
+        margin-right: 8PX;
+    }
+
+    #navbarExampleTransparentExample {
+        background: #ffdd57;
+    }
+
+    .navbar-menu {
+        box-shadow: none !important;
+        padding: 0 !important;
+        font: 12PX !important;
+    }
+
+    #navbarExampleTransparentExample .navbar-item {
+        padding-left: 0rem !important;
+        margin-left: 1.25rem !important;
+        font-weight: normal !important;
+    }
+}
+
+/*------------------------------  Start DetailVideo.html Side  ---------------------------------*/
+.flex {
+    display: flex;
+    flex-direction: column;
+}
+
+.side-detail div > span, .style-p, #ExQuestion .media-content .content, #Conversation .media-content .content {
+    line-height: 30px !important;
+    font-size: 15px !important;
+}
+
+#Side-left .is-child, #ExQuestion .media, #Conversation .media, .border-blue {
+    border: 1px solid #486fd682;
+    border-radius: 5px;
+}
+
+#bodycomment {
+    border: 1px solid #486fd682;
+    padding: 16px;
+    margin-bottom: 13px;
+}
+
+    #bodycomment .media-left {
+        margin-left: 10px;
+    }
+
+#DetailSampleQuestion .container .media {
+    height: 330px !important;
+}
+
+/*------------------------------  Start Footer  ---------------------------------*/
+.footer {
+    background-color: #738b9a;
+    padding: 0;
+    border-top: solid 3px #213244;
+}
+
+    .footer p, .footer h1 {
+        color: #213244 !important;
+    }
+
+.main-footer p {
+    color: #e0e7ee !important;
+}
+
+.main-footer {
+    height: 40px;
+    padding-top: 12px;
+    background-color: #213244 !important;
+}
+
+
+.identity-center {
+    margin: 5px auto !important;
+}

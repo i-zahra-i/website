@@ -1,0 +1,61 @@
+﻿@using Teacher4.Core.DTOs.Course
+@model IEnumerable<Teacher4.Core.DTOs.Course.ShowCourseListItemViewModel>
+@{
+    ViewData["Title"] = "خانه";
+    Layout = "~/Views/Shared/_Home.cshtml";
+}
+
+
+<!-----------------------   Start Video   -------------------->
+<article class="message is-info ">
+    <div href="" class="message-header ">
+        <h2>آخرین ویدیو ها</h2>
+    </div>
+    <div class="message-body box">
+        <section class="carousel-section">
+            <div class="carousel-container">
+                <div class="owl-carousel owl-theme">
+                    @foreach (var item in Model)
+                    {
+                        <partial name="_BoxCourse" model="@item" />
+                    }
+                </div>
+            </div>
+        </section>
+    </div>
+</article>
+<!-----------------------   Start File   ---------------------->
+<article class="message is-warning">
+    <div href="" class="message-header ">
+        <h2>آخرین فایل ها</h2>
+    </div>
+    <div class="message-body box bg-yellow">
+        <section class="carousel-section">
+            <div class="carousel-container">
+                <div class="owl-carousel owl-theme">
+                    @{
+                        List<ShowCourseListItemViewModel> fileCourse = ViewBag.FileCourse as List<ShowCourseListItemViewModel>;
+                    }
+                    @if (fileCourse != null)
+                    {
+                        foreach (var item in fileCourse)
+                        {
+                            <partial name="_BoxCourse" model="@item" />
+                        }
+                    }
+                </div>
+            </div>
+        </section>
+
+    </div>
+</article>
+
+
+
+
+
+
+
+
+
+

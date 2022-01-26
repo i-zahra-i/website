@@ -1,0 +1,31 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+    <partial name="_MetaTaks" />
+    <title> تکلیف </title>
+    <partial name="_Styles" />
+</head>
+<body>
+    <!------------------------------  Start Top Menu  ---------------------------->
+    <partial name="_TopMenu" />
+    <div class="my5"><br></div>
+    <div class="my5"><br></div>
+    <!---------------------------  Start Main Menu  -------------------------->
+    @await Component.InvokeAsync("CourseGroupComponent")
+
+
+    <div class="my5"><br></div>
+
+    <!--------------------------------  Start body  ------------------------------->
+    @RenderBody()
+
+    <!------------------------------  Start Footer  ---------------------------->
+    <partial name="_Footer" />
+    <!------------------------------  Start Script  ---------------------------->
+
+    <script src="https://code.jquery.com/jquery-3.6.0.js" integrity="sha256-H+K7U5CnXl1h5ywQfKtSj8PCmoN9aaq30gDh27Xc0jk=" crossorigin="anonymous"></script>
+    <script src="/Js/Style.js"></script>
+    <script src="/Js/MainMenu.js"></script>
+    @RenderSection("Scripts", false)
+</body>
+</html>

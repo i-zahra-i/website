@@ -1,0 +1,119 @@
+﻿@using Teacher4.Core.Convertors
+@using Teacher4.Core.DTOs
+@model Teacher4.Core.DTOs.ChargeWalletViewModel
+@{
+    ViewData["Title"] = "کیف پول شما";
+    Layout = "~/Views/Shared/_Account.cshtml";
+}
+
+<!--------------------------------  Start body  ------------------------------->
+<section>
+    <div class="container">
+        <div class="columns mt-4">
+            <!-------------- Side Right -------------->
+            <partial name="_SideBar" />
+            <!--------------- Side Left -------------->
+            <div class="column">
+                <div class="message is-info ">
+                    <div class="message-header">
+                        <span> کیف پول شما </span>
+                    </div>
+                    <div class="message-body box">
+                        <div class="content">
+                            <!-- Change password -->
+                            <form asp-action="index" method="post">
+
+                                <div class="columns mt-3">
+                                    <div class="column is-6">
+                                        <div class="field">
+                                            <div class="control  has-icons-right">
+                                                <input asp-for="Amount" class="input is-warning is-small has-text-centered" type="number" placeholder="مبلغ به تومان ">
+                                                <span class="icon is-small is-right">
+                                                    <i class="fas fa-wallet"></i>
+                                                </span>
+                                            </div>
+                                        </div>
+                                        <div asp-validation-summary="All" class="has-text-danger is-size-7"></div>
+
+                                        <button class="button is-warning is-small ">شارژ کیف پول </button>
+                                    </div>
+                                </div>
+                            </form>
+                            <hr />
+                            @{
+                                List<WalletViewModel> list = ViewBag.ListWallet as List<WalletViewModel>;
+                            }
+                            <!-- bill -->
+                            <div class="columns mt-4">
+                                <div class="column is-12 ">
+                                    <div class="table-container pl-5">
+                                        <table class="table table  is-bordered is-striped is-narrow is-hoverable is-fullwidth mt-2">
+                                            <thead>
+                                                <tr class="is-size-7-mobile">
+                                                    <th class="has-text-success">
+                                                        <abbr title="Position">
+                                                            <span> مبلغ </span>
+                                                        </abbr>
+                                                    </th>
+                                                    <th class="has-text-success">
+                                                        <abbr title="Played">
+                                                            <span>تاریخ </span>
+                                                        </abbr>
+                                                    </th>
+                                                    <th class="has-text-success">
+                                                        <abbr title="Won">
+                                                            <span>نوع تراکنش</span>
+                                                        </abbr>
+                                                    </th>
+                                                    <th class="has-text-success">
+                                                        <abbr title="Drawn">
+                                                            <span>شرح</span>
+                                                        </abbr>
+                                                    </th>
+                                                </tr>
+                                            </thead>
+                                            <tbody>
+                                                @foreach (var item in list)
+                                                {
+                                                    <tr  class="is-size-7-mobile">
+                                                        <td>@item.Amount.ToString("#,0 تومان")</td>
+                                                        <td>
+                                                            @item.DateTime.ToShamsi()
+                                                        </td>
+                                                        <td>
+                                                            @if (item.Type == 1)
+                                                            {
+                                                                <p class="has-text-success">واریز به حساب</p>
+                                                            }
+                                                            else
+                                                            {
+                                                                <p class="has-text-danger">برداشت از حساب</p>
+                                                            }
+                                                        </td>
+                                                        <td>
+                                                            @{
+
+                                                                string tagHref = "<a  href='/UserPanel/MyOrders/ShowOrder/" + item.Description.Replace("فاکتور شماره #", "") + "' >#</a>";
+                                                            }
+                                                            @Html.Raw(item.Description.Replace("#", tagHref))
+                                                        </td>
+                                                    </tr>
+                                                }
+                                            </tbody>
+                                        </table>
+
+                                    </div>
+
+                                </div>
+                            </div>
+
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+        </div>
+    </div>
+
+</section>
+
